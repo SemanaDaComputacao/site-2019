@@ -9,12 +9,14 @@
     >
       <span></span>
     </button>
-    <div class="nav__logo" v-show="!setBar"></div>
+    <a href="/" class="nav__logo" v-show="!setBar">
+      <img src="../assets/images/logo.png" alt="" srcset="" />
+    </a>
     <scrollactive
       v-show="itemsActive"
       class="nav__menu"
       :class="[{ 'nav__menu--active': setBar && itemsActive }]"
-      :offset="100"
+      :offset="0"
     >
       <a
         v-for="item in items"
@@ -36,10 +38,10 @@ export default {
       setBar: false,
       windowWidth: window.innerWidth,
       items: [
-        { hook: '#sobre', text: 'SOBRE' },
-        { hook: '#agenda', text: 'AGENDA' },
-        { hook: '#dia', text: 'UM DIA NA COMPUTAÇÃO' },
-        { hook: '#local', text: 'LOCAL' }
+        { hook: '#about', text: 'SOBRE' },
+        { hook: '#schedule', text: 'AGENDA' },
+        { hook: '#compday', text: 'UM DIA NA COMPUTAÇÃO' },
+        { hook: '#location', text: 'LOCAL' }
       ]
     }
   },
@@ -81,6 +83,10 @@ export default {
   @apply fixed inset-x-0 top-0;
   @apply flex flex-col justify-center;
   @apply bg-white;
+}
+
+.nav__logo {
+  @apply w-32 mx-8;
 }
 
 .nav__btn {

@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <section id="compday"></section>
+</template>
 
 <script>
 export default {}

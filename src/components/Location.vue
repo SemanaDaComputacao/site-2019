@@ -1,4 +1,6 @@
-<template> </template>
+<template>
+  <section id="location"></section>
+</template>
 
 <script>
 export default {}

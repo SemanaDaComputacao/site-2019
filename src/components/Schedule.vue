@@ -1,4 +1,6 @@
-<template> </template>
+<template>
+  <section id="schedule"></section>
+</template>
 
 <script>
 export default {}
