@@ -2,23 +2,25 @@
   <div id="nav">
     <button
       id="nav-toggle"
-      :class="{ active: barActive }"
+      :class="{ active: itemsActive }"
       class="nav__btn"
       @click="toggleBar"
       v-show="setBar"
     >
       <span></span>
     </button>
-    <div class="nav__logo"></div>
+    <div class="nav__logo" v-show="!setBar"></div>
     <scrollactive
-      v-show="!setBar && !barActive"
+      v-show="itemsActive"
       class="nav__menu"
+      :class="[{ 'nav__menu--active': setBar && itemsActive }]"
       :offset="100"
     >
       <a
         v-for="item in items"
         :key="item.hook"
         class="scrollactive-item nav__menu--item"
+        :class="[{ 'item--active': setBar && itemsActive }]"
         :href="item.hook"
         >{{ item.text }}
       </a>
@@ -30,7 +32,7 @@
 export default {
   data() {
     return {
-      barActive: false,
+      itemsActive: false,
       setBar: false,
       windowWidth: window.innerWidth,
       items: [
@@ -43,18 +45,22 @@ export default {
   },
   watch: {
     windowWidth() {
-      if (this.windowWidth <= 768) this.setBar = true
-      else {
+      if (this.windowWidth <= 768) {
+        this.setBar = true
+        this.itemsActive = false
+      } else {
         this.setBar = false
-        this.barActive = false
+        this.itemsActive = true
       }
     }
   },
   created() {
-    if (this.windowWidth <= 768) this.setBar = true
-    else {
+    if (this.windowWidth <= 768) {
+      this.setBar = true
+      this.itemsActive = false
+    } else {
       this.setBar = false
-      this.barActive = false
+      this.itemsActive = true
     }
   },
   mounted() {
@@ -64,7 +70,7 @@ export default {
   },
   methods: {
     toggleBar() {
-      this.barActive = !this.barActive
+      this.itemsActive = !this.itemsActive
     }
   }
 }
@@ -73,25 +79,33 @@ export default {
 <style>
 #nav {
   @apply fixed inset-x-0 top-0;
-  @apply flex justify-between;
-  @apply bg-white border-b-2 border-black;
-  height: 9vh;
+  @apply flex flex-col;
+  @apply bg-white;
+  height: 10vh;
 }
 
 .nav__btn {
-  @apply self-center mx-5;
+  @apply m-3 self-start;
 }
 
 .nav__menu {
-  @apply flex flex-col;
+  @apply flex;
+}
+
+.nav__menu--active {
+  @apply flex-col items-center bg-white;
+}
+
+.item--active {
+  @apply min-w-full text-center;
 }
 
 .nav__menu--item {
-  @apply px-2 pt-4;
+  @apply p-2;
 }
 
 .nav__menu--item:hover {
-  @apply text-white font-bold bg-azul-semana;
+  @apply text-white font-bold bg-laranja-semana;
 }
 
 .nav__menu--item:focus {
@@ -100,21 +114,24 @@ export default {
 
 @screen md {
   #nav {
-    @apply bg-transparent border-transparent;
+    @apply flex-row justify-between bg-transparent border-transparent;
   }
 
   .nav__menu {
-    @apply flex flex-row mx-6;
+    @apply mx-6;
+  }
+
+  .nav__btn {
+    @apply self-center mx-5;
   }
 
   .nav__menu--item {
-    @apply font-bold text-black;
+    @apply font-bold text-black pt-4;
     text-shadow: -1px -1px 0 #aa0cb5, 1px -1px 0 #aa0cb5, -1px 1px 0 #aa0cb5,
       1px 1px 0 #aa0cb5;
   }
 
   .nav__menu--item:hover {
-    @apply bg-laranja-semana;
     text-shadow: none;
   }
 }

@@ -30,21 +30,18 @@ export default {}
 }
 
 .header__img {
-  @apply self-center my-8;
-  height: 250px;
+  @apply self-center mt-16 mb-6;
   width: 340px;
 }
 
 @screen sm {
   .header__img {
-    height: 280px;
     width: 450px;
   }
 }
 
 @screen md {
   .header__img {
-    height: 250px;
     width: 720px;
   }
 }
