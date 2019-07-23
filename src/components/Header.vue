@@ -11,9 +11,9 @@
       <p>DÉCIMA PRIMEIRA EDIÇÃO | IME-USP</p>
       <p>26/08/19 À 30/08/19</p>
     </div>
-    <button class="header__btn">
+    <a class="scrollactive-item header__btn" href="#sobre">
       <font-awesome-icon icon="chevron-down" />
-    </button>
+    </a>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {}
 }
 
 .header__img {
-  @apply self-center mt-16 mb-6;
+  @apply self-center my-16;
   width: 340px;
 }
 

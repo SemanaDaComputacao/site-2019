@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <div id="nav" :class="{ 'nav--active': setBar && itemsActive }">
     <button
       id="nav-toggle"
       :class="{ active: itemsActive }"
@@ -79,13 +79,12 @@ export default {
 <style>
 #nav {
   @apply fixed inset-x-0 top-0;
-  @apply flex flex-col;
+  @apply flex flex-col justify-center;
   @apply bg-white;
-  height: 10vh;
 }
 
 .nav__btn {
-  @apply m-3 self-start;
+  @apply self-start m-3;
 }
 
 .nav__menu {
@@ -121,12 +120,8 @@ export default {
     @apply mx-6;
   }
 
-  .nav__btn {
-    @apply self-center mx-5;
-  }
-
   .nav__menu--item {
-    @apply font-bold text-black pt-4;
+    @apply font-bold text-black py-4;
     text-shadow: -1px -1px 0 #aa0cb5, 1px -1px 0 #aa0cb5, -1px 1px 0 #aa0cb5,
       1px 1px 0 #aa0cb5;
   }
