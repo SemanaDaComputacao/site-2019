@@ -14,6 +14,8 @@ module.exports = {
       transparent: 'transparent',
 
       'azul-semana': '#171c5b',
+      'rosa-semana': '#aa0cb5',
+      'laranja-semana': '#e88729',
 
       black: '#000',
       white: '#fff',

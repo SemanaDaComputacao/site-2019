@@ -4,18 +4,25 @@
       id="nav-toggle"
       :class="{ active: barActive }"
       class="nav__btn"
-      @click="tooggleBar"
+      @click="toggleBar"
       v-show="setBar"
     >
       <span></span>
     </button>
     <div class="nav__logo"></div>
-    <div class="nav__items" v-show="!setBar">
-      <div class="--item">SOBRE</div>
-      <div class="--item">AGENDA</div>
-      <div class="--item">UM DIA NA COMPUTAÇÃO</div>
-      <div class="--item">LOCAL</div>
-    </div>
+    <scrollactive
+      v-show="!setBar && !barActive"
+      class="nav__menu"
+      :offset="100"
+    >
+      <a
+        v-for="item in items"
+        :key="item.hook"
+        class="scrollactive-item nav__menu--item"
+        :href="item.hook"
+        >{{ item.text }}
+      </a>
+    </scrollactive>
   </div>
 </template>
 
@@ -25,18 +32,30 @@ export default {
     return {
       barActive: false,
       setBar: false,
-      windowWidth: window.innerWidth
+      windowWidth: window.innerWidth,
+      items: [
+        { hook: '#sobre', text: 'SOBRE' },
+        { hook: '#agenda', text: 'AGENDA' },
+        { hook: '#dia', text: 'UM DIA NA COMPUTAÇÃO' },
+        { hook: '#local', text: 'LOCAL' }
+      ]
     }
   },
   watch: {
     windowWidth() {
       if (this.windowWidth <= 768) this.setBar = true
-      else this.setBar = false
+      else {
+        this.setBar = false
+        this.barActive = false
+      }
     }
   },
   created() {
     if (this.windowWidth <= 768) this.setBar = true
-    else this.setBar = false
+    else {
+      this.setBar = false
+      this.barActive = false
+    }
   },
   mounted() {
     window.onresize = () => {
@@ -44,7 +63,7 @@ export default {
     }
   },
   methods: {
-    tooggleBar() {
+    toggleBar() {
       this.barActive = !this.barActive
     }
   }
@@ -55,7 +74,7 @@ export default {
 #nav {
   @apply fixed inset-x-0 top-0;
   @apply flex justify-between;
-  @apply bg-purple-700 border-b-2 border-black;
+  @apply bg-white border-b-2 border-black;
   height: 9vh;
 }
 
@@ -63,20 +82,47 @@ export default {
   @apply self-center mx-5;
 }
 
-.nav__items {
-  @apply min-h-full flex;
+.nav__menu {
+  @apply flex flex-col;
 }
 
-.--item {
-  @apply items-center p-4;
+.nav__menu--item {
+  @apply px-2 pt-4;
 }
 
-.--item:hover {
+.nav__menu--item:hover {
   @apply text-white font-bold bg-azul-semana;
+}
+
+.nav__menu--item:focus {
+  outline: none;
+}
+
+@screen md {
+  #nav {
+    @apply bg-transparent border-transparent;
+  }
+
+  .nav__menu {
+    @apply flex flex-row mx-6;
+  }
+
+  .nav__menu--item {
+    @apply font-bold text-black;
+    text-shadow: -1px -1px 0 #aa0cb5, 1px -1px 0 #aa0cb5, -1px 1px 0 #aa0cb5,
+      1px 1px 0 #aa0cb5;
+  }
+
+  .nav__menu--item:hover {
+    @apply bg-laranja-semana;
+    text-shadow: none;
+  }
 }
 
 #nav-toggle {
   cursor: pointer;
+  padding: 10px 30px 16px 0px;
+  outline: none;
 }
 #nav-toggle span,
 #nav-toggle span:before,

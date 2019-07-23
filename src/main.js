@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import '@/assets/css/tailwind.css'
+import VueScrollactive from 'vue-scrollactive'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faChevronDown,
@@ -16,6 +17,8 @@ library.add(faChevronDown, faBars, faTimes)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
+
+Vue.use(VueScrollactive)
 
 new Vue({
   router,
