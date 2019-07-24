@@ -9,7 +9,7 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: process.env.BASE_URL,
+      path: '/site-2019',
       name: 'home',
       component: Home
     },
