@@ -2,7 +2,7 @@
   <div id="home">
     <navbar />
     <the-header class="home--item" />
-    <about class="home--item" />
+    <about class="flex flex-col" />
     <schedule class="home--item" />
     <comp-day class="home--item" />
     <location class="home--item" />

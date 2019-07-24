@@ -9,14 +9,16 @@
     >
       <span></span>
     </button>
-    <a href="/" class="nav__logo" v-show="!setBar">
+    <a href="#home" class="nav__logo" v-show="!setBar">
       <img src="../assets/images/logo.png" alt="" srcset="" />
     </a>
     <scrollactive
       v-show="itemsActive"
       class="nav__menu"
       :class="[{ 'nav__menu--active': setBar && itemsActive }]"
-      :offset="0"
+      :offset="60"
+      :duration="1200"
+      :modifyUrl="false"
     >
       <a
         v-for="item in items"
@@ -24,6 +26,7 @@
         class="scrollactive-item nav__menu--item"
         :class="[{ 'item--active': setBar && itemsActive }]"
         :href="item.hook"
+        @click="setBar ? toggleBar() : null"
         >{{ item.text }}
       </a>
     </scrollactive>
@@ -83,10 +86,11 @@ export default {
   @apply fixed inset-x-0 top-0;
   @apply flex flex-col justify-center;
   @apply bg-white;
+  z-index: 1;
 }
 
 .nav__logo {
-  @apply w-32 mx-8;
+  @apply w-32 mx-8 my-1;
 }
 
 .nav__btn {
@@ -127,9 +131,9 @@ export default {
   }
 
   .nav__menu--item {
-    @apply font-bold text-black py-4;
-    text-shadow: -1px -1px 0 #aa0cb5, 1px -1px 0 #aa0cb5, -1px 1px 0 #aa0cb5,
-      1px 1px 0 #aa0cb5;
+    @apply font-bold text-white py-4;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   .nav__menu--item:hover {
