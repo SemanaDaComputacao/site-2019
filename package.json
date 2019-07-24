@@ -9,9 +9,6 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
@@ -30,5 +27,5 @@
     "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.6.10"
   },
-  "homepage": "git@github.com-rodorgas:SemanaDaComputacao/site-2019"
+  "homepage": "git@github.com-ygortavela:SemanaDaComputacao/site-2019"
 }
