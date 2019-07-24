@@ -22,7 +22,7 @@
     <scrollactive
       v-show="itemsActive"
       class="nav__menu"
-      :class="[{ 'nav__menu--active': setBar && itemsActive }]"
+      :class="{ 'nav__menu--active': setBar && itemsActive }"
       :offset="60"
       :duration="1200"
       :modifyUrl="false"
@@ -31,7 +31,7 @@
         v-for="item in items"
         :key="item.hook"
         class="scrollactive-item nav__menu--item"
-        :class="[{ 'item--active': setBar && itemsActive }]"
+        :class="{ 'item--active': setBar && itemsActive }"
         :href="item.hook"
         @click="setBar ? toggleBar() : null"
         >{{ item.text }}
@@ -125,7 +125,7 @@ export default {
 }
 
 .nav__menu--item:focus {
-  outline: none;
+  @apply outline-none;
 }
 
 @screen md {

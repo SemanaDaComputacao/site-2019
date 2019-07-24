@@ -1,12 +1,12 @@
 <template>
   <div id="home">
     <navbar />
-    <the-header class="home--item" />
-    <about class="home--item" />
-    <schedule class="home--item" />
-    <comp-day class="home--item" />
-    <location class="home--item" />
-    <the-footer class="home--item" />
+    <the-header class="home__item" />
+    <about class="home__item background--crystal" />
+    <schedule class="home__item background--crystal" />
+    <comp-day class="home__item" />
+    <location class="home__item" />
+    <the-footer class="home__item" />
   </div>
 </template>
 
@@ -38,7 +38,16 @@ export default {
   @apply flex flex-col min-h-screen;
 }
 
-.home--item {
+.home__item {
   @apply flex flex-col min-h-screen;
+}
+
+.background--crystal {
+  background-image: url('../assets/images/background2.png');
+  background-position: center;
+}
+
+.text {
+  @apply text-laranja-semana;
 }
 </style>

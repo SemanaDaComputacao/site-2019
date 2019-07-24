@@ -1,0 +1,195 @@
+[
+    {
+        "day": "Segunda, 26 de Agosto",
+        "lectures": [
+            {
+                "title": "Lua",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "13:30 - 14:20"
+            },
+            {
+                "title": "Cobli",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "14:30 - 15:20"
+            },
+            {
+                "title": "Coffee-Break",
+                "speaker": "",
+                "speakerTitle": "",
+                "bio": "",
+                "description": "",
+                "time": "15:20 - 16:00"
+            },
+            {
+                "title": "Nvidia",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "16:00 - 16:50"
+            },
+            {
+                "title": "Opus",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "17:00 - 17:50"
+            }
+        ]
+    },
+    {
+        "day": "Terça, 27 de Agosto",
+        "lectures": [
+            {
+                "title": "UX/UI",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "13:30 - 14:20"
+            },
+            {
+                "title": "Lendico",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "14:30 - 15:20"
+            },
+            {
+                "title": "Coffee-Break",
+                "speaker": "",
+                "speakerTitle": "",
+                "bio": "",
+                "description": "",
+                "time": "15:20 - 16:00"
+            },
+            {
+                "title": "Arte Computacional",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "16:00 - 16:50"
+            },
+            {
+                "title": "Descubra",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "17:00 - 17:50"
+            }
+        ]
+    },
+    {
+        "day": "Quarta, 28 de Agosto",
+        "lectures": [
+            {
+                "title": "Protocolos Zero",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "13:30 - 14:20"
+            },
+            {
+                "title": "Caelum",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "14:30 - 15:20"
+            },
+            {
+                "title": "Coffee-Break",
+                "speaker": "",
+                "speakerTitle": "",
+                "bio": "",
+                "description": "",
+                "time": "15:20 - 16:00"
+            },
+            {
+                "title": "Descubra",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "16:00 - 16:50"
+            },
+            {
+                "title": "Nubank",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "17:00 - 17:50"
+            }
+        ]
+    },
+    {
+        "day": "Quinta, 29 de Agosto",
+        "lectures": [
+            {
+                "title": "Visão Computacional",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "13:30 - 14:20"
+            },
+            {
+                "title": "Santander",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "14:30 - 15:20"
+            },
+            {
+                "title": "Coffee-Break",
+                "speaker": "",
+                "speakerTitle": "",
+                "bio": "",
+                "description": "",
+                "time": "15:20 - 16:00"
+            },
+            {
+                "title": "ED Cris",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "16:00 - 16:50"
+            },
+            {
+                "title": "Concepta",
+                "speaker": "alguem",
+                "speakerTitle": "Dr. no BCC",
+                "bio": "aaaaaaaaaaaaaa",
+                "description": "lorem ipson",
+                "time": "17:00 - 17:50"
+            }
+        ]
+    },
+    {
+        "day": "Sexta, 30 de Agosto",
+        "lectures": [
+            {
+                "title": "Um dia na computação!",
+                "speaker": "",
+                "speakerTitle": "",
+                "bio": "",
+                "description": "lorem ipson",
+                "time": "13:30 - 17:50"
+            }
+        ]
+    }
+]
