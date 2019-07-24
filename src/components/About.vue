@@ -24,8 +24,8 @@
     </div>
     <p class="about--text">
       Bem vindos a mais uma edição da <strong>Semana da Computação</strong>! O
-      evento, gratuito e aberto, chega em 2018 na sua décima edição com muito
-      conteúdo e novidades exclusivas.
+      evento, gratuito e aberto, chega em 2019 na sua décima primeira edição com
+      muito conteúdo e novidades exclusivas.
     </p>
     <p class="about--text">
       Serão <strong>16 palestras</strong> sobre os mais diversos temas da
@@ -39,7 +39,7 @@
       IME-USP.
     </p>
     <p class="about--text">
-      No último dia do evento, haverá
+      Durante os dias, haverá
       <strong>stands de recrutamento</strong> das melhores empresas de
       tecnologia com atuação no Brasil. Se você está se formando, procurando
       estágio ou apenas quer conhecer o mercado, não pode ficar de fora dessa.
