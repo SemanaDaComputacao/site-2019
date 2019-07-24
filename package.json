@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
@@ -26,6 +27,8 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "tailwindcss": "^1.0.5",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "homepage": "git@github.com-rodorgas:SemanaDaComputacao/site-2019"
 }
