@@ -9,9 +9,16 @@
     >
       <span></span>
     </button>
-    <a href="#home" class="nav__logo" v-show="!setBar">
-      <img src="../assets/images/logo.png" alt="" srcset="" />
-    </a>
+    <scrollactive
+      class="nav__logo"
+      :offset="60"
+      :duration="1200"
+      :modifyUrl="false"
+    >
+      <a href="#home" class="scrollactive-item" v-show="!setBar">
+        <img src="../assets/images/logo.png" alt="" srcset="" />
+      </a>
+    </scrollactive>
     <scrollactive
       v-show="itemsActive"
       class="nav__menu"

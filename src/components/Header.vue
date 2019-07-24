@@ -11,9 +11,16 @@
       <p>DÉCIMA PRIMEIRA EDIÇÃO | IME-USP</p>
       <p>26/08/19 À 30/08/19</p>
     </div>
-    <a class="header__btn" href="#about">
-      <img class="h-6 w-10" src="../assets/images/icons/down-chevron.png" />
-    </a>
+    <scrollactive
+      class="header__btn"
+      :offset="60"
+      :duration="1200"
+      :modifyUrl="false"
+    >
+      <a href="#about" class="scrollactive-item">
+        <img class="h-6 w-10" src="../assets/images/icons/down-chevron.png" />
+      </a>
+    </scrollactive>
   </div>
 </template>
 
@@ -54,7 +61,7 @@ export default {}
 }
 
 .header__btn {
-  @apply self-center text-black mt-4 mb-12;
+  @apply self-center mt-4 mb-12;
 }
 
 .header__btn:focus {
