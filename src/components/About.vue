@@ -58,7 +58,7 @@ export default {}
 }
 
 .content--item {
-  @apply flex flex-col m-4;
+  @apply flex flex-col m-4 text-black;
 }
 
 .item--title {
@@ -70,7 +70,7 @@ export default {}
 }
 
 .about--text {
-  @apply text-black text-lg my-3 px-4;
+  @apply text-lg my-3 px-4;
 }
 
 @screen md {

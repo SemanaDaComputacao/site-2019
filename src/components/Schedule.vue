@@ -13,7 +13,7 @@
         <div v-for="lecture in item.lectures" :key="lecture.title">
           <scrollactive
             v-if="lecture.title !== 'Coffee-Break'"
-            :offset="60"
+            :offset="90"
             :duration="600"
             :modifyUrl="false"
           >
@@ -107,7 +107,7 @@ export default {
 
 <style>
 .schedule--item {
-  @apply flex flex-col flex-wrap my-4 mx-4 text-black;
+  @apply flex flex-col flex-wrap my-4 mx-4;
 }
 
 .day {

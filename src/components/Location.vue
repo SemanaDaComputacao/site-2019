@@ -4,7 +4,7 @@
       <img
         class="section__title--img"
         src="../assets/images/icons/location.png"
-        />
+      />
       <p class="section__title--text">Local</p>
     </div>
 
@@ -88,7 +88,6 @@ export default {}
 @import '@/assets/css/utils.scss';
 
 #location {
-  max-width: 1152px;
   margin: auto;
 
   h3 {
