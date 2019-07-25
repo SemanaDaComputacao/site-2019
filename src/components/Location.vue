@@ -1,6 +1,13 @@
 <template>
   <section id="location">
-    <p class="section__title">Local</p>
+    <div class="section__title">
+      <img
+        class="section__title--img"
+        src="../assets/images/icons/location.png"
+        />
+      <p class="section__title--text">Local</p>
+    </div>
+
     <div class="columns is-centered">
       <div class="column is-10">
         <p class="about--text">
@@ -69,6 +76,8 @@
         </div>
       </div>
       <div id="map"></div>
+=======
+>>>>>>> d7fe870c07143637e6fdf41b2636ed389b88ab7b
     </div>
   </section>
 </template>

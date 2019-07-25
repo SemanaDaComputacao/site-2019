@@ -1,6 +1,12 @@
 <template>
   <section id="schedule">
-    <p class="section__title">Agenda</p>
+    <div class="section__title">
+      <img
+        class="section__title--img"
+        src="../assets/images/icons/schedule.png"
+      />
+      <p class="section__title--text">Agenda</p>
+    </div>
     <div v-for="item in items" :key="item.day" class="schedule--item">
       <div class="day">{{ item.day }}</div>
       <div class="lectures">
@@ -30,7 +36,11 @@
                   {{ lecture.title }}
                 </span>
                 <br />
-                {{ lecture.speaker }}
+                <span
+                  v-if="lecture.title.toLowerCase() !== 'um dia na computação!'"
+                >
+                  {{ lecture.speaker }} ({{ lecture.speakerPlace }})
+                </span>
               </div>
             </a>
           </scrollactive>
@@ -97,7 +107,7 @@ export default {
 
 <style>
 .schedule--item {
-  @apply flex flex-col flex-wrap my-4 mx-4 text-laranja-semana;
+  @apply flex flex-col flex-wrap my-4 mx-4 text-black;
 }
 
 .day {

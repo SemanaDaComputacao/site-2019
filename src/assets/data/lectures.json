@@ -5,6 +5,7 @@
             {
                 "title": "Lua",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -14,6 +15,7 @@
             {
                 "title": "Cobli",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -23,6 +25,7 @@
             {
                 "title": "Coffee-Break",
                 "speaker": "",
+                "speakerPlace": "",
                 "speakerTitle": "",
                 "speakerPhoto": "",
                 "bio": "",
@@ -32,6 +35,7 @@
             {
                 "title": "Nvidia",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -41,6 +45,7 @@
             {
                 "title": "Opus",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -55,6 +60,7 @@
             {
                 "title": "UX/UI",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -64,6 +70,7 @@
             {
                 "title": "Lendico",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -73,6 +80,7 @@
             {
                 "title": "Coffee-Break",
                 "speaker": "",
+                "speakerPlace": "",
                 "speakerTitle": "",
                 "speakerPhoto": "",
                 "bio": "",
@@ -82,6 +90,7 @@
             {
                 "title": "Arte Computacional",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -91,6 +100,7 @@
             {
                 "title": "Descubra",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -105,6 +115,7 @@
             {
                 "title": "Protocolos Zero",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -114,6 +125,7 @@
             {
                 "title": "Caelum",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -123,6 +135,7 @@
             {
                 "title": "Coffee-Break",
                 "speaker": "",
+                "speakerPlace": "",
                 "speakerTitle": "",
                 "speakerPhoto": "",
                 "bio": "",
@@ -132,6 +145,7 @@
             {
                 "title": "Descubra",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -141,6 +155,7 @@
             {
                 "title": "Nubank",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -155,6 +170,7 @@
             {
                 "title": "Visão Computacional",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -164,6 +180,7 @@
             {
                 "title": "Santander",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -173,6 +190,7 @@
             {
                 "title": "Coffee-Break",
                 "speaker": "",
+                "speakerPlace": "",
                 "speakerTitle": "",
                 "speakerPhoto": "",
                 "bio": "",
@@ -182,6 +200,7 @@
             {
                 "title": "ED Cris",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -191,6 +210,7 @@
             {
                 "title": "Concepta",
                 "speaker": "alguem",
+                "speakerPlace": "IME-USP",
                 "speakerTitle": "Dr. no BCC",
                 "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
@@ -205,6 +225,7 @@
             {
                 "title": "Um dia na computação!",
                 "speaker": "",
+                "speakerPlace": "",
                 "speakerTitle": "",
                 "speakerPhoto": "",
                 "bio": "",

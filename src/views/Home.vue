@@ -4,9 +4,9 @@
     <the-header class="home__item" />
     <about class="home__item background--crystal" />
     <schedule class="home__item background--crystal" />
-    <comp-day class="home__item" />
-    <location class="home__item" />
-    <the-footer class="home__item" />
+    <comp-day class="home__item background--crystal" />
+    <location class="home__item background--crystal" />
+    <the-footer class="home__item background--crystal" />
   </div>
 </template>
 
@@ -49,9 +49,17 @@ export default {
 }
 
 .section__title {
-  @apply text-6xl text-center text-black font-extrabold m-12 border-8 px-4 self-center;
+  @apply mt-20 mb-12 border-8 self-center flex;
   border-style: inset;
   color: #fff;
+}
+
+.section__title--text {
+  @apply text-5xl text-black font-extrabold mr-2 break-all;
+}
+
+.section__title--img {
+  @apply w-16 h-16 p-2 mr-2 self-center;
 }
 
 a:focus {
