@@ -13,5 +13,7 @@
 #app {
   font-family: 'RobotoSlab', 'Avenir', Helvetica, Arial, sans-serif;
   @apply min-h-screen flex flex-col bg-azul-semana;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 </style>

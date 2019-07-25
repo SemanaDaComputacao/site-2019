@@ -51,6 +51,7 @@ export default {
 .section__title {
   @apply text-6xl text-center text-black font-extrabold m-12 border-8 px-4 self-center;
   border-style: inset;
+  color: #fff;
 }
 
 a:focus {

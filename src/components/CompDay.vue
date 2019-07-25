@@ -1,5 +1,7 @@
 <template>
-  <section id="compday"></section>
+  <section id="compday">
+    <p class="section__title">Um dia na Computação</p>
+  </section>
 </template>
 
 <script>
