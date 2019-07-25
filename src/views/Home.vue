@@ -51,11 +51,10 @@ export default {
 .section__title {
   @apply mt-20 mb-12 border-8 self-center flex;
   border-style: inset;
-  color: #fff;
 }
 
 .section__title--text {
-  @apply text-5xl text-black font-extrabold mr-2 break-all;
+  @apply text-4xl text-black font-extrabold mr-2 break-all;
 }
 
 .section__title--img {
