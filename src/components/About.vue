@@ -55,6 +55,7 @@ export default {}
 .about__content {
   @apply flex flex-col justify-between;
   @apply shadow-lg bg-white rounded-lg mx-4 mb-8;
+  text-shadow: none;
 }
 
 .content--item {

@@ -112,6 +112,7 @@ export default {}
   font-family: 'Lato', sans-serif;
   margin-top: 15px;
   position: relative;
+  text-shadow: none;
 
   a {
     color: $link-light-bg;

@@ -39,7 +39,9 @@ export default {
 }
 
 .home__item {
-  @apply flex flex-col min-h-screen;
+  @apply flex flex-col min-h-screen text-laranja-semana;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .background--crystal {
@@ -54,7 +56,7 @@ export default {
 }
 
 .section__title--text {
-  @apply text-4xl text-black font-extrabold mr-2 break-all;
+  @apply text-4xl text-rosa-semana font-extrabold mr-2 break-all;
 }
 
 .section__title--img {

@@ -24,6 +24,7 @@
         <p>
           Serão apresentados também os
           <a
+            class="compday--links"
             href="https://bcc.ime.usp.br/principal/miscelanea/gruposExtensao.html"
             >grupos de extensão</a
           >
@@ -37,7 +38,9 @@
         </p>
         <p>
           Saiba mais informações no
-          <a href="https://www.facebook.com/events/708963852786013/"
+          <a
+            class="compday--links"
+            href="https://www.facebook.com/events/708963852786013/"
             >evento do Facebook</a
           >.
         </p>
@@ -65,8 +68,13 @@ export default {}
 }
 
 .compday--btn {
-  @apply self-center text-center bg-gray-400 font-bold text-lg border-4 py-1 px-4;
+  @apply self-center text-center bg-gray-400 font-bold text-black text-lg border-4 py-1 px-4;
+  text-shadow: none;
   border-style: inset;
+}
+
+.compday--links {
+  @apply text-blue-600 underline;
 }
 
 @screen md {

@@ -93,7 +93,7 @@ export default {
   @apply fixed inset-x-0 top-0;
   @apply flex flex-col justify-center;
   @apply bg-white;
-  z-index: 1;
+  z-index: 10;
 }
 
 .nav__logo {
