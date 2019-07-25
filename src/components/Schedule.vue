@@ -1,6 +1,12 @@
 <template>
   <section id="schedule">
-    <p class="section__title">Agenda</p>
+    <div class="section__title">
+      <img
+        class="section__title--img"
+        src="../assets/images/icons/schedule.png"
+      />
+      <p class="section__title--text">Agenda</p>
+    </div>
     <div v-for="item in items" :key="item.day" class="schedule--item">
       <div class="day">{{ item.day }}</div>
       <div class="lectures">
