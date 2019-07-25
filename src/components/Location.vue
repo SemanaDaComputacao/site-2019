@@ -4,7 +4,7 @@
       <img
         class="section__title--img"
         src="../assets/images/icons/location.png"
-        />
+      />
       <p class="section__title--text">Local</p>
     </div>
 
