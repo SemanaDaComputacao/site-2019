@@ -1,16 +1,40 @@
 <template>
   <section id="schedule">
+    <p class="section__title">Agenda</p>
     <div v-for="item in items" :key="item.day" class="schedule--item">
       <div class="day">{{ item.day }}</div>
       <div class="lectures">
-        <scrollactive :offset="60" :duration="600" :modifyUrl="false">
-          <a
-            v-for="lecture in item.lectures"
-            :key="lecture.title"
-            href="#lecture"
-            class="lecture--item scrollactive-item"
-            @click="toggleLecture(lecture, item.day)"
+        <div v-for="lecture in item.lectures" :key="lecture.title">
+          <scrollactive
+            v-if="lecture.title !== 'Coffee-Break'"
+            :offset="60"
+            :duration="600"
+            :modifyUrl="false"
           >
+            <a
+              :href="
+                lecture.title.toLowerCase() === 'um dia na computação!'
+                  ? '#compday'
+                  : '#lecture'
+              "
+              class="lecture--item scrollactive-item"
+              @click="toggleLecture(lecture, item.day)"
+            >
+              <div class="lecture__time">
+                {{ splitTime(lecture.time, ' - ')[0] }}
+                <br />
+                {{ splitTime(lecture.time, ' - ')[1] }}
+              </div>
+              <div class="lecture__details">
+                <span class="lecture__details--title">
+                  {{ lecture.title }}
+                </span>
+                <br />
+                {{ lecture.speaker }}
+              </div>
+            </a>
+          </scrollactive>
+          <div class="lecture--item" v-else>
             <div class="lecture__time">
               {{ splitTime(lecture.time, ' - ')[0] }}
               <br />
@@ -23,8 +47,8 @@
               <br />
               {{ lecture.speaker }}
             </div>
-          </a>
-        </scrollactive>
+          </div>
+        </div>
       </div>
       <lecture
         v-if="showLecture && currentDay === item.day"
@@ -61,9 +85,11 @@ export default {
       return str.split(sep)
     },
     toggleLecture(lect, day) {
-      this.selectedLecture = lect
-      this.currentDay = day
-      this.showLecture = true
+      if (lect.title.toLowerCase() !== 'um dia na computação!') {
+        this.selectedLecture = lect
+        this.currentDay = day
+        this.showLecture = true
+      }
     }
   }
 }
@@ -71,7 +97,7 @@ export default {
 
 <style>
 .schedule--item {
-  @apply flex flex-col flex-wrap my-4 ml-4 text-laranja-semana;
+  @apply flex flex-col flex-wrap my-4 mx-4 text-laranja-semana;
 }
 
 .day {
@@ -107,8 +133,5 @@ export default {
   .schedule--item {
     @apply flex-row justify-center;
   }
-}
-
-.lecture-disabled {
 }
 </style>

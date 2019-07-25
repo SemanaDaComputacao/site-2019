@@ -6,7 +6,7 @@
                 "title": "Lua",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "13:30 - 14:20"
@@ -15,7 +15,7 @@
                 "title": "Cobli",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "14:30 - 15:20"
@@ -33,7 +33,7 @@
                 "title": "Nvidia",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "16:00 - 16:50"
@@ -42,7 +42,7 @@
                 "title": "Opus",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "17:00 - 17:50"
@@ -56,7 +56,7 @@
                 "title": "UX/UI",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "13:30 - 14:20"
@@ -65,7 +65,7 @@
                 "title": "Lendico",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "14:30 - 15:20"
@@ -83,7 +83,7 @@
                 "title": "Arte Computacional",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "16:00 - 16:50"
@@ -92,7 +92,7 @@
                 "title": "Descubra",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "17:00 - 17:50"
@@ -106,7 +106,7 @@
                 "title": "Protocolos Zero",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "13:30 - 14:20"
@@ -115,7 +115,7 @@
                 "title": "Caelum",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "14:30 - 15:20"
@@ -133,7 +133,7 @@
                 "title": "Descubra",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "16:00 - 16:50"
@@ -142,7 +142,7 @@
                 "title": "Nubank",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "17:00 - 17:50"
@@ -156,7 +156,7 @@
                 "title": "Visão Computacional",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "13:30 - 14:20"
@@ -165,7 +165,7 @@
                 "title": "Santander",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "14:30 - 15:20"
@@ -183,7 +183,7 @@
                 "title": "ED Cris",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "16:00 - 16:50"
@@ -192,7 +192,7 @@
                 "title": "Concepta",
                 "speaker": "alguem",
                 "speakerTitle": "Dr. no BCC",
-                "speakerPhoto": "../images/speakers/statue.png",
+                "speakerPhoto": "statue.png",
                 "bio": "aaaaaaaaaaaaaa",
                 "description": "lorem ipson",
                 "time": "17:00 - 17:50"

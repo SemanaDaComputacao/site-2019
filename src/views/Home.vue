@@ -43,11 +43,17 @@ export default {
 }
 
 .background--crystal {
-  background-image: url('../assets/images/background2.png');
+  background-image: url('../assets/images/background.png');
   background-position: center;
+  @apply border-b-2 pb-8;
 }
 
-.text {
-  @apply text-laranja-semana;
+.section__title {
+  @apply text-6xl text-center text-black font-extrabold m-12 border-8 px-4 self-center;
+  border-style: inset;
+}
+
+a:focus {
+  @apply outline-none;
 }
 </style>

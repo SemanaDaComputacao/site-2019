@@ -31,7 +31,7 @@ export default {}
 <style>
 #header {
   @apply justify-end;
-  background-image: url('../assets/images/background.png');
+  background-image: url('../assets/images/background-header.png');
   background-position: center;
   background-size: cover;
 }

@@ -124,13 +124,11 @@ export default {
   @apply text-white font-bold bg-laranja-semana;
 }
 
-.nav__menu--item:focus {
-  @apply outline-none;
-}
-
 @screen md {
   #nav {
-    @apply flex-row justify-between bg-transparent border-transparent;
+    @apply flex-row justify-between bg-azul-semana border-transparent;
+    background-image: url('../assets/images/background.png');
+    background-position: center;
   }
 
   .nav__menu {
@@ -151,7 +149,6 @@ export default {
 #nav-toggle {
   cursor: pointer;
   padding: 10px 30px 16px 0px;
-  outline: none;
 }
 #nav-toggle span,
 #nav-toggle span:before,
