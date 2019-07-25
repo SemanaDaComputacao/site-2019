@@ -54,7 +54,8 @@ export default {}
 <style>
 .about__content {
   @apply flex flex-col justify-between;
-  @apply shadow-lg bg-white rounded-lg mx-4 mb-8;
+  @apply shadow-lg bg-gray-300 mx-4 mb-8 border-4;
+  border-style: inset;
   text-shadow: none;
 }
 

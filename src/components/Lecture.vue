@@ -62,8 +62,9 @@ export default {
   background-position: center;
   text-shadow: none;
   @apply flex flex-col;
-  @apply rounded-lg shadow-lg bg-white m-4 p-8;
-  @apply text-black text-lg;
+  @apply shadow-lg bg-white m-4 p-8;
+  @apply text-black text-lg border-4;
+  border-style: inset;
 }
 
 .lecture__content {
