@@ -49,12 +49,12 @@ export default {
 }
 
 .section__title {
-  @apply mt-24 mb-12 border-8 self-center flex;
+  @apply mt-20 mb-12 border-8 self-center flex;
   border-style: inset;
 }
 
 .section__title--text {
-  @apply text-5xl text-black font-extrabold mr-2;
+  @apply text-5xl text-black font-extrabold mr-2 break-all;
 }
 
 .section__title--img {
