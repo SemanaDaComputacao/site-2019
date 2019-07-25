@@ -76,8 +76,6 @@
         </div>
       </div>
       <div id="map"></div>
-=======
->>>>>>> d7fe870c07143637e6fdf41b2636ed389b88ab7b
     </div>
   </section>
 </template>
@@ -145,7 +143,6 @@ export default {}
       position: relative;
       margin-bottom: 10px;
       width: 100%;
-      height: 100%;
       top: unset;
       left: unset;
     }
