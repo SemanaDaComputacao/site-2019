@@ -9,7 +9,7 @@
             :key="lecture.title"
             href="#lecture"
             class="lecture--item scrollactive-item"
-            @click="toggleLecture(lecture)"
+            @click="toggleLecture(lecture, item.day)"
           >
             <div class="lecture__time">
               {{ splitTime(lecture.time, ' - ')[0] }}
@@ -26,12 +26,13 @@
           </a>
         </scrollactive>
       </div>
+      <lecture
+        v-if="showLecture && currentDay === item.day"
+        @close="showLecture = false"
+        :info="selectedLecture"
+        class="lecture__info"
+      />
     </div>
-    <lecture
-      v-if="showLecture"
-      @close="toggleLecture"
-      :info="selectedLecture"
-    />
   </section>
 </template>
 
@@ -44,6 +45,7 @@ export default {
     return {
       items: {},
       showLecture: false,
+      currentDay: '',
       selectedLecture: {}
     }
   },
@@ -58,9 +60,10 @@ export default {
     splitTime(str, sep) {
       return str.split(sep)
     },
-    toggleLecture(lect) {
+    toggleLecture(lect, day) {
       this.selectedLecture = lect
-      this.showLecture = !this.showLecture
+      this.currentDay = day
+      this.showLecture = true
     }
   }
 }
@@ -68,7 +71,7 @@ export default {
 
 <style>
 .schedule--item {
-  @apply flex flex-col my-4 ml-4 text-laranja-semana;
+  @apply flex flex-col flex-wrap my-4 ml-4 text-laranja-semana;
 }
 
 .day {
@@ -77,6 +80,11 @@ export default {
 
 .lectures {
   @apply flex flex-col flex-1;
+}
+
+.lecture__info {
+  @apply text-center;
+  flex-basis: 100%;
 }
 
 .lecture--item {
@@ -99,5 +107,8 @@ export default {
   .schedule--item {
     @apply flex-row justify-center;
   }
+}
+
+.lecture-disabled {
 }
 </style>
