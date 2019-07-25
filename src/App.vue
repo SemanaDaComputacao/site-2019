@@ -11,7 +11,7 @@
 }
 
 #app {
-  font-family: 'ComicSans', 'RobotoSlab', 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'RobotoSlab', 'Avenir', Helvetica, Arial, sans-serif;
   @apply min-h-screen flex flex-col bg-azul-semana;
 }
 </style>

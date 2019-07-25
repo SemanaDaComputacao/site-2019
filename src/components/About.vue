@@ -70,7 +70,7 @@ export default {}
 }
 
 .about--text {
-  @apply text-laranja-semana text-lg my-3 px-4;
+  @apply text-black text-lg my-3 px-4;
 }
 
 @screen md {

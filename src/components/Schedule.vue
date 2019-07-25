@@ -36,7 +36,11 @@
                   {{ lecture.title }}
                 </span>
                 <br />
-                {{ lecture.speaker }}
+                <span
+                  v-if="lecture.title.toLowerCase() !== 'um dia na computação!'"
+                >
+                  {{ lecture.speaker }} ({{ lecture.speakerPlace }})
+                </span>
               </div>
             </a>
           </scrollactive>
@@ -103,7 +107,7 @@ export default {
 
 <style>
 .schedule--item {
-  @apply flex flex-col flex-wrap my-4 mx-4 text-laranja-semana;
+  @apply flex flex-col flex-wrap my-4 mx-4 text-black;
 }
 
 .day {
