@@ -149,6 +149,7 @@ export default {
 #nav-toggle {
   cursor: pointer;
   padding: 10px 30px 16px 0px;
+  outline: none;
 }
 #nav-toggle span,
 #nav-toggle span:before,
