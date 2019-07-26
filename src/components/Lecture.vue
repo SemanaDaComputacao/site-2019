@@ -63,7 +63,7 @@ export default {
   text-shadow: none;
   @apply flex flex-col;
   @apply shadow-lg bg-white m-4 p-8;
-  @apply text-black text-lg border-4;
+  @apply text-black text-lg border-8;
   border-style: inset;
 }
 

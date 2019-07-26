@@ -68,7 +68,7 @@ export default {}
 }
 
 .compday--btn {
-  @apply self-center text-center bg-gray-400 font-bold text-black text-lg border-4 py-1 px-4;
+  @apply self-center text-center bg-gray-400 font-bold text-black text-lg border-4 py-1 px-4 mt-4;
   text-shadow: none;
   border-style: inset;
 }

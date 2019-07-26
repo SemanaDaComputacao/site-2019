@@ -80,6 +80,7 @@ export default {
 
 .logo--container {
   @apply flex justify-center m-4;
+  flex-basis: 50%;
 }
 
 .partner--logo {
