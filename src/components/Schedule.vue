@@ -128,8 +128,7 @@ export default {
 }
 
 .lecture__info {
-  @apply text-center;
-  flex-basis: 100%;
+  @apply text-center self-stretch;
 }
 
 .lecture--item {
@@ -148,9 +147,14 @@ export default {
   @apply no-underline text-white;
 }
 
-@screen sm {
+@screen md {
   .day {
     @apply text-right;
+  }
+
+  .lecture__info {
+    @apply self-auto;
+    flex-basis: 100%;
   }
 
   .schedule--item {
