@@ -16,7 +16,7 @@
       </p>
       <div class="lecture--container">
         <p class="title--text">Sinopse</p>
-        <p class="lecture__description">
+        <p v-html="info.description" class="lecture__description">
           {{ info.description }}
         </p>
       </div>
