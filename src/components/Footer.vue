@@ -30,7 +30,11 @@
         >
         &middot;
         <a class="footer--link" href="https://bcc.ime.usp.br/encontro/2017"
-          >IV 2017</a
+          >IX 2017</a
+        >
+        &middot;
+        <a class="footer--link" href="https://bcc.ime.usp.br/semana-old/2018"
+          >X 2018</a
         >
       </p>
       <p class="footer--text">
