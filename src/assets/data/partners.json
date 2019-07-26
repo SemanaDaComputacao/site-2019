@@ -13,6 +13,24 @@
     },
     {
         "type": "patrocínio",
+        "name": "Concepta",
+        "logo": "concepta.png",
+        "link": "http://www.conceptainvest.com"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Lendico",
+        "logo": "lendico.png",
+        "link": "https://lendico.com.br"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Neon",
+        "logo": "neon.png",
+        "link": "https://neon.com.br"
+    },
+    {
+        "type": "patrocínio",
         "name": "Nubank",
         "logo": "nubank.png",
         "link": "https://nubank.com.br"

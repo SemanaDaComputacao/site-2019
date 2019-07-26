@@ -71,7 +71,7 @@ export default {
 }
 
 .partners--title {
-  @apply text-4xl m-4 text-center;
+  @apply text-4xl m-4 text-center text-rosa-semana;
 }
 
 .partners--container {

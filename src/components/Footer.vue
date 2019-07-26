@@ -48,7 +48,18 @@
         <strong>Semana da Computação &copy; 2019</strong><br />
       </p>
       <p class="footer--text">
-        Ícones desenvolvidos pela
+        O
+        <a
+          class="footer--link"
+          href="https://github.com/SemanaDaComputacao/site-2019"
+          >código-fonte desse site</a
+        >
+        é distribuído sob a licença MIT. O conteúdo é distribuído sob a licença
+        <a
+          class="footer--link"
+          href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+          >CC BY NC SA 4.0</a
+        >. Ícones desenvolvidos pela
         <a class="footer--link" href="http://www.freepik.com/">Freepik</a> de
         <a class="footer--link" href="https://www.flaticon.com"
           >www.flaticon.com</a
@@ -64,12 +75,12 @@ export default {}
 
 <style>
 #footer {
-  @apply bg-gray-200 text-black text-base pt-8 text-center border-t-4;
+  @apply bg-gray-200 text-black text-base pt-8 pb-4 px-4 text-center border-t-4;
   text-shadow: none;
 }
 
 .footer--link {
-  @apply text-blue-600 underline px-2;
+  @apply text-blue-600 underline px-1;
 }
 
 .footer--text {
