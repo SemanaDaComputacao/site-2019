@@ -111,9 +111,9 @@ export default {
 }
 
 .speaker__img {
-  @apply rounded-full self-center m-4 px-1 flex-none;
-  height: 20vh;
-  width: 20vh;
+  @apply rounded-full self-center m-4 pr-1 flex-none;
+  height: 7em;
+  width: 7em;
 }
 
 .speaker--container {
