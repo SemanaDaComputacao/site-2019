@@ -59,14 +59,24 @@ export default {
 }
 
 .section__title--text {
-  @apply text-4xl text-rosa-semana font-extrabold mr-2 break-all;
+  @apply text-3xl text-rosa-semana font-extrabold mr-2 break-words;
 }
 
 .section__title--img {
-  @apply w-16 h-16 p-2 mr-2 self-center;
+  @apply w-12 h-12 p-2 mr-2 self-center;
 }
 
 a:focus {
   @apply outline-none;
+}
+
+@screen md {
+  .section__title--text {
+    @apply text-4xl;
+  }
+
+  .section__title--img {
+    @apply w-16 h-16;
+  }
 }
 </style>

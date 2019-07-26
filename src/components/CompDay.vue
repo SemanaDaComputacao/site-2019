@@ -45,9 +45,7 @@
           >.
         </p>
       </div>
-      <a
-        class="compday--btn"
-        href="https://docs.google.com/a/usp.br/forms/d/1vLxKflqntxYpfwfzRnVMnMlr8Pel_5YoJVwcN_jPHf8/viewform"
+      <a class="compday--btn" href="https://forms.gle/VYfuEHQ9NpMTQ8hx7"
         >INSCREVA-SE</a
       >
     </div>
