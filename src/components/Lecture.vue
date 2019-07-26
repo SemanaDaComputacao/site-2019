@@ -71,8 +71,8 @@ export default {
   background-position: center;
   text-shadow: none;
   @apply flex flex-col;
-  @apply shadow-lg bg-white m-4 p-8;
-  @apply text-black text-lg border-8;
+  @apply shadow-lg bg-white m-1 p-8;
+  @apply text-black text-base border-8 break-words;
   border-style: inset;
 }
 
@@ -81,7 +81,7 @@ export default {
 }
 
 .lecture__title {
-  @apply text-4xl font-bold text-left;
+  @apply text-2xl font-bold text-left;
 }
 
 .lecture--container {
@@ -111,7 +111,7 @@ export default {
 }
 
 .speaker__img {
-  @apply rounded-full self-center m-4 p-1 flex-none;
+  @apply rounded-full self-center m-4 px-1 flex-none;
   height: 20vh;
   width: 20vh;
 }
@@ -129,18 +129,30 @@ export default {
 }
 
 .title--text {
-  @apply w-auto mr-4 text-3xl flex-1 text-left;
+  @apply w-auto mr-4 text-xl flex-1 text-left;
 }
 
 @screen sm {
   #lecture {
-    @apply mx-16;
+    @apply mx-12;
+  }
+
+  .lecture__title {
+    @apply text-3xl;
+  }
+
+  .title--text {
+    @apply h-16 text-2xl;
   }
 }
 
 @screen md {
   #lecture {
-    @apply mx-24;
+    @apply mx-16 text-lg;
+  }
+
+  .lecture__title {
+    @apply text-4xl;
   }
 
   .lecture__content {
@@ -160,7 +172,7 @@ export default {
   }
 
   .title--text {
-    @apply h-16;
+    @apply h-16 text-3xl;
   }
 }
 </style>

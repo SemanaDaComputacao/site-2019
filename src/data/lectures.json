@@ -13,7 +13,7 @@
                         "bio": "Roberto Ierusalimschy é Professor Associado da PUC-Rio, onde atua na área de projeto e implementação de linguagens de programação. Ele também é o principal projetista da linguagem Lua. Em 2013 foi agraciado com o Prêmio do Mérito Científico da Sociedade Brasileira de Computação. Roberto foi Distinguished Speaker da ACM e Tinker Professor da Universidade Stanford. Atualmente é Conferencista Senior da SBC e membro do IFIP Working Group de projeto de linguagens."
                     }
                 ],
-                "description": "Lua é uma linguagem de programação desenvolvida na PUC-Rio que se tornou a linguagem mais usada para \"script\" de jogos, além de ser usada extensivamente em muitas outras áreas e aplicações, da Wikipedia até a Internet das Coisas. A primeira versão da linguagem foi criada em 1993, como uma linguagem de configuração para uso interno. Com o passar dos anos, seu uso foi se difundindo para outras áreas, como jogos e sistemas embarcados. Simultaneamente, tanto o projeto quanto a implementação da linguagem amadureceram.<br>Essa palestra relata a história da linguagem e como ela veio a adquirir essa relevância global, analisando porque diferentes áreas adotaram a linguagem. Iremos discutir também como pretendemos continuar sua evolução.",
+                "description": "Lua é uma linguagem de programação desenvolvida na PUC-Rio que se tornou a linguagem mais usada para \"script\" de jogos, além de ser usada extensivamente em muitas outras áreas e aplicações, da Wikipedia até a Internet das Coisas. A primeira versão da linguagem foi criada em 1993, como uma linguagem de configuração para uso interno. Com o passar dos anos, seu uso foi se difundindo para outras áreas, como jogos e sistemas embarcados. Simultaneamente, tanto o projeto quanto a implementação da linguagem amadureceram. Essa palestra relata a história da linguagem e como ela veio a adquirir essa relevância global, analisando porque diferentes áreas adotaram a linguagem. Iremos discutir também como pretendemos continuar sua evolução.",
                 "time": "13:30 - 14:20"
             },
             {
@@ -97,15 +97,15 @@
                 "speakers": [
                     {
                         "speaker": "Cintia Barbosa",
-                        "speakerTitle": "aaaaaaaaa",
+                        "speakerTitle": "",
                         "speakerPhoto": "cintia_metodos_ageis.jpg",
-                        "bio": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        "bio": ""
                     },
                     {
                         "speaker": "Larissa Moraes",
-                        "speakerTitle": "aaaaaaaaaa",
+                        "speakerTitle": "",
                         "speakerPhoto": "statue.png",
-                        "bio": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                        "bio": ""
                     }
                 ],
                 "description": "Metodologia ágil está em alta no mercado, mas a implementação no dia-a-dia de trabalho das empresas é algo que traz muitos desafios. Nesta palestra iremos falar da experiência que tivemos na Lendico para implementar a metodologia ágil nos times de desenvolvimento web e também de ciência de dados, contando um pouco das adaptações que fizemos para cada time.  ",
