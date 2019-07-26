@@ -1,27 +1,54 @@
 <template>
   <section id="footer">
     <div>
-      <p>
+      <p class="footer--text">
         <strong>Edições anteriores</strong><br />
-        <a href="http://www.ime.usp.br/~encontrobcc/2010/">II 2010</a> &middot;
-        <a href="http://www.ime.usp.br/~encontrobcc/2011/">III 2011</a> &middot;
-        <a href="http://www.ime.usp.br/~encontrobcc/2012/">IV 2012</a> &middot;
-        <a href="http://www.ime.usp.br/~encontrobcc/2013/">V 2013</a> &middot;
-        <a href="http://bcc.ime.usp.br/40anos/">VI 2014</a> &middot;
-        <a href="http://bcc.ime.usp.br/encontro/2015">VII 2015</a> &middot;
-        <a href="http://bcc.ime.usp.br/encontro/2016/#/">VIII 2016</a> &middot;
-        <a href="https://bcc.ime.usp.br/encontro/2017">IV 2017</a>
+        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2010/"
+          >II 2010</a
+        >
+        &middot;
+        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2011/"
+          >III 2011</a
+        >
+        &middot;
+        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2012/"
+          >IV 2012</a
+        >
+        &middot;
+        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2013/"
+          >V 2013</a
+        >
+        &middot;
+        <a class="footer--link" href="http://bcc.ime.usp.br/40anos/">VI 2014</a>
+        &middot;
+        <a class="footer--link" href="http://bcc.ime.usp.br/encontro/2015"
+          >VII 2015</a
+        >
+        &middot;
+        <a class="footer--link" href="http://bcc.ime.usp.br/encontro/2016/#/"
+          >VIII 2016</a
+        >
+        &middot;
+        <a class="footer--link" href="https://bcc.ime.usp.br/encontro/2017"
+          >IV 2017</a
+        >
       </p>
-      <p>
-        <a href="https://www.facebook.com/semanacomputacaoimeusp/"
+      <p class="footer--text">
+        <a
+          class="footer--link"
+          href="https://www.facebook.com/semanacomputacaoimeusp/"
           >Página no Facebook</a
         >
       </p>
-      <p><strong>Semana da Computação &copy; 2018</strong><br /></p>
-      <p>
+      <p class="footer--text">
+        <strong>Semana da Computação &copy; 2018</strong><br />
+      </p>
+      <p class="footer--text">
         Ícones desenvolvidos pela
-        <a href="http://www.freepik.com/">Freepik</a> de
-        <a href="https://www.flaticon.com">www.flaticon.com</a>.
+        <a class="footer--link" href="http://www.freepik.com/">Freepik</a> de
+        <a class="footer--link" href="https://www.flaticon.com"
+          >www.flaticon.com</a
+        >.
       </p>
     </div>
   </section>
@@ -37,11 +64,11 @@ export default {}
   text-shadow: none;
 }
 
-a {
+.footer--link {
   @apply text-blue-600 underline px-2;
 }
 
-p {
+.footer--text {
   @apply mb-6;
 }
 </style>
