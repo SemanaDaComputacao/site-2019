@@ -73,6 +73,10 @@ export default {}
   border-style: inset;
 }
 
+.compday--btn:active {
+  @apply bg-gray-500;
+}
+
 .compday--links {
   @apply text-blue-600 underline;
 }
