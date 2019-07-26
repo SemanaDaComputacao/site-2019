@@ -39,7 +39,16 @@
                 <span
                   v-if="lecture.title.toLowerCase() !== 'um dia na computação!'"
                 >
-                  {{ lecture.speaker }} ({{ lecture.speakerPlace }})
+                  <span
+                    v-for="(person, index) in lecture.speakers"
+                    :key="person.speaker"
+                  >
+                    <span v-if="index % 2 !== 0">e</span>
+                    {{ person.speaker }}
+                  </span>
+                  <span v-if="lecture.speakerPlace !== ''"
+                    >({{ lecture.speakerPlace }})</span
+                  >
                 </span>
               </div>
             </a>
@@ -72,7 +81,7 @@
 
 <script>
 import Lecture from './Lecture'
-import lectures from '../assets/data/lectures.json'
+import lectures from '../data/lectures.json'
 
 export default {
   data() {
@@ -132,7 +141,7 @@ export default {
 }
 
 .lecture__details--title {
-  @apply text-2xl text-white;
+  @apply text-2xl text-blue-600 underline;
 }
 
 @screen sm {

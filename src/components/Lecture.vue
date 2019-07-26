@@ -23,20 +23,29 @@
       <div class="lecture--container">
         <p class="title--text">Palestrante</p>
         <div class="speaker">
-          <div class="speaker__info">
-            <img :src="imageLocation(info.speakerPhoto)" class="speaker__img" />
-            <div class="speaker--container">
-              <p class="speaker__name">
-                {{ info.speaker }}
-              </p>
-              <p class="speaker__title">
-                {{ info.speakerTitle }}
-              </p>
+          <div
+            v-for="person in info.speakers"
+            :key="person.speaker"
+            class="speakers--container"
+          >
+            <div class="speaker__info">
+              <img
+                :src="imageLocation(person.speakerPhoto)"
+                class="speaker__img"
+              />
+              <div class="speaker--container">
+                <p class="speaker__name">
+                  {{ person.speaker }}
+                </p>
+                <p class="speaker__title">
+                  {{ person.speakerTitle }}
+                </p>
+              </div>
             </div>
+            <p class="speaker__bio">
+              {{ person.bio }}
+            </p>
           </div>
-          <p class="speaker__bio">
-            {{ info.bio }}
-          </p>
         </div>
       </div>
     </div>
@@ -93,12 +102,16 @@ export default {
   flex: 4;
 }
 
+.speakers--container {
+  @apply flex flex-col mb-4;
+}
+
 .speaker__info {
   @apply flex flex-col self-center;
 }
 
 .speaker__img {
-  @apply rounded-full self-center m-4;
+  @apply rounded-full self-center m-4 p-1 flex-none;
   height: 20vh;
   width: 20vh;
 }

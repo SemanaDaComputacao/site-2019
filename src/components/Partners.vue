@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import partners from '../assets/data/partners.json'
+import partners from '../data/partners.json'
 
 export default {
   data() {
