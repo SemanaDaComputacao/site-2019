@@ -121,7 +121,11 @@ export default {
 }
 
 .speaker__name {
-  @apply font-bold;
+  @apply font-bold text-lg;
+}
+
+.speaker__title {
+  @apply text-sm;
 }
 
 .speaker__bio {
@@ -165,6 +169,14 @@ export default {
 
   .speaker__info {
     @apply flex-row self-start;
+  }
+
+  .speaker__name {
+    @apply text-xl;
+  }
+
+  .speaker__title {
+    @apply text-base;
   }
 
   .speaker--container {
