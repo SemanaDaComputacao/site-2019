@@ -88,7 +88,6 @@ export default {}
 @import '@/assets/css/utils.scss';
 
 #location {
-  max-width: 1152px;
   margin: auto;
 
   h3 {
@@ -113,6 +112,7 @@ export default {}
   font-family: 'Lato', sans-serif;
   margin-top: 15px;
   position: relative;
+  text-shadow: none;
 
   a {
     color: $link-light-bg;

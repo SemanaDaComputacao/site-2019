@@ -54,11 +54,13 @@ export default {}
 <style>
 .about__content {
   @apply flex flex-col justify-between;
-  @apply shadow-lg bg-white rounded-lg mx-4 mb-8;
+  @apply shadow-lg bg-gray-200 mx-4 mb-8 border-8;
+  border-style: inset;
+  text-shadow: none;
 }
 
 .content--item {
-  @apply flex flex-col m-4;
+  @apply flex flex-col m-4 text-black;
 }
 
 .item--title {
@@ -70,7 +72,7 @@ export default {}
 }
 
 .about--text {
-  @apply text-black text-lg my-3 px-4;
+  @apply text-lg my-3 px-4;
 }
 
 @screen md {

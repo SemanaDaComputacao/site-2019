@@ -56,8 +56,6 @@ export default {}
 .header__info {
   @apply flex flex-col items-center;
   @apply text-center text-white text-xl;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 .header__btn {
