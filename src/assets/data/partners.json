@@ -1,0 +1,44 @@
+[
+    {
+        "type": "patrocínio",
+        "name": "Caelum",
+        "logo": "caelum.png",
+        "link": "https://caelum.com.br"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Cobli",
+        "logo": "cobli.png",
+        "link": "https://cobli.co"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Nubank",
+        "logo": "nubank.png",
+        "link": "https://nubank.com.br"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Opus Software",
+        "logo": "opus.png",
+        "link": "https://opus-software.com.br"
+    },
+    {
+        "type": "patrocínio",
+        "name": "Santander",
+        "logo": "santander.png",
+        "link": "https://santander.com.br"
+    },
+    {
+        "type": "apoio",
+        "name": "IME-USP",
+        "logo": "ime.png",
+        "link": "https://ime.usp.br"
+    },
+    {
+        "type": "apoio",
+        "name": "Bacharelado em Ciência da Computação",
+        "logo": "bcc.png",
+        "link": "https://bcc.ime.usp.br"
+    }
+]
