@@ -32,6 +32,7 @@
         <a class="footer--link" href="https://bcc.ime.usp.br/encontro/2017"
           >IX 2017</a
         >
+        &middot;
         <a class="footer--link" href="https://bcc.ime.usp.br/semana-old/2018"
           >X 2018</a
         >
