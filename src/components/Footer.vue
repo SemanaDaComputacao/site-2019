@@ -41,7 +41,7 @@
         >
       </p>
       <p class="footer--text">
-        <strong>Semana da Computação &copy; 2018</strong><br />
+        <strong>Semana da Computação &copy; 2019</strong><br />
       </p>
       <p class="footer--text">
         Ícones desenvolvidos pela
