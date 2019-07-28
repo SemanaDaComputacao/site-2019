@@ -48,6 +48,12 @@
         "link": "https://santander.com.br"
     },
     {
+        "type": "patrocínio",
+        "name": "USPCodeLab",
+        "logo": "codelab.png",
+        "link": "https://codelab.ime.usp.br"
+    },
+    {
         "type": "apoio",
         "name": "IME-USP",
         "logo": "ime.png",
