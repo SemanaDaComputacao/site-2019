@@ -31,12 +31,6 @@
     },
     {
         "type": "patrocínio",
-        "name": "Neon",
-        "logo": "neon.svg",
-        "link": "https://neon.com.br"
-    },
-    {
-        "type": "patrocínio",
         "name": "Nubank",
         "logo": "nubank.svg",
         "link": "https://nubank.com.br"
