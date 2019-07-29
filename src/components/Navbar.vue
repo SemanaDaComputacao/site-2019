@@ -105,7 +105,7 @@ export default {
   @apply flex justify-between;
 }
 .nav__logo {
-  @apply w-32 mx-8 my-1;
+  @apply w-32 ml-8 my-1;
 }
 
 .nav__btn {
