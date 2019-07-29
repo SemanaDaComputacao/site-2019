@@ -39,10 +39,10 @@
                 </p>
                 <p class="speaker__title">
                   {{ person.speakerTitle }}
-                  <span v-show="person.speakerTitle && info.speakerPlace !== ''"
+                  <!-- <span v-show="person.speakerTitle && info.speakerPlace !== ''"
                     >,
                   </span>
-                  {{ info.speakerPlace }}
+                  {{ info.speakerPlace }} -->
                 </p>
               </div>
             </div>
