@@ -2,67 +2,67 @@
     {
         "type": "patrocínio",
         "name": "Caelum",
-        "logo": "caelum.png",
+        "logo": "caelum.svg",
         "link": "https://caelum.com.br"
     },
     {
         "type": "patrocínio",
         "name": "Cobli",
-        "logo": "cobli.png",
+        "logo": "cobli.svg",
         "link": "https://cobli.co"
     },
     {
         "type": "patrocínio",
+        "name": "USPCodeLab",
+        "logo": "codelab.svg",
+        "link": "https://codelab.ime.usp.br"
+    },
+    {
+        "type": "patrocínio",
         "name": "Concepta",
-        "logo": "concepta.png",
+        "logo": "concepta.svg",
         "link": "http://www.conceptainvest.com"
     },
     {
         "type": "patrocínio",
         "name": "Lendico",
-        "logo": "lendico.png",
+        "logo": "lendico.svg",
         "link": "https://lendico.com.br"
     },
     {
         "type": "patrocínio",
         "name": "Neon",
-        "logo": "neon.png",
+        "logo": "neon.svg",
         "link": "https://neon.com.br"
     },
     {
         "type": "patrocínio",
         "name": "Nubank",
-        "logo": "nubank.png",
+        "logo": "nubank.svg",
         "link": "https://nubank.com.br"
     },
     {
         "type": "patrocínio",
         "name": "Opus Software",
-        "logo": "opus.png",
+        "logo": "opus.svg",
         "link": "https://opus-software.com.br"
     },
     {
         "type": "patrocínio",
         "name": "Santander",
-        "logo": "santander.png",
+        "logo": "santander.svg",
         "link": "https://santander.com.br"
-    },
-    {
-        "type": "patrocínio",
-        "name": "USPCodeLab",
-        "logo": "codelab.png",
-        "link": "https://codelab.ime.usp.br"
     },
     {
         "type": "apoio",
         "name": "IME-USP",
-        "logo": "ime.png",
+        "logo": "ime.svg",
         "link": "https://ime.usp.br"
     },
     {
         "type": "apoio",
         "name": "Bacharelado em Ciência da Computação",
-        "logo": "bcc.png",
+        "logo": "bcc.svg",
         "link": "https://bcc.ime.usp.br"
     }
 ]

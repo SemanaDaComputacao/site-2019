@@ -1,24 +1,29 @@
 <template>
   <div id="nav" :class="{ 'nav--active': setBar && itemsActive }">
-    <button
-      id="nav-toggle"
-      :class="{ active: itemsActive }"
-      class="nav__btn"
-      @click="toggleBar"
-      v-show="setBar"
-    >
-      <span></span>
-    </button>
-    <scrollactive
-      class="nav__logo"
-      :offset="60"
-      :duration="1200"
-      :modifyUrl="false"
-    >
-      <a href="#home" class="scrollactive-item" v-show="!setBar">
-        <img src="../assets/images/logo.png" alt="" srcset="" />
-      </a>
-    </scrollactive>
+    <div class="nav--container">
+      <button
+        id="nav-toggle"
+        :class="{ active: itemsActive }"
+        class="nav__btn"
+        @click="toggleBar"
+        v-show="setBar"
+      >
+        <span></span>
+      </button>
+      <scrollactive
+        class="nav__logo"
+        :offset="60"
+        :duration="1200"
+        :modifyUrl="false"
+      >
+        <a href="#home" class="scrollactive-item" v-show="!setBar">
+          <img src="../assets/images/logo-branco.svg" alt="" srcset="" />
+        </a>
+        <a href="#home" class="scrollactive-item" v-show="setBar">
+          <img src="../assets/images/logo-preto.svg" alt="" srcset="" />
+        </a>
+      </scrollactive>
+    </div>
     <scrollactive
       v-show="itemsActive"
       class="nav__menu"
@@ -96,6 +101,9 @@ export default {
   z-index: 10;
 }
 
+.nav--container {
+  @apply flex justify-between;
+}
 .nav__logo {
   @apply w-32 mx-8 my-1;
 }

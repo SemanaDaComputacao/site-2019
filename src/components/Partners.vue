@@ -84,7 +84,7 @@ export default {
 }
 
 .partner--logo {
-  @apply h-16;
+  @apply h-16 w-40;
 }
 
 @screen sm {
