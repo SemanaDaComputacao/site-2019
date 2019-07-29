@@ -105,11 +105,11 @@ export default {
   @apply flex justify-between;
 }
 .nav__logo {
-  @apply w-32 ml-8 my-1;
+  @apply w-32 ml-4 my-1;
 }
 
 .nav__btn {
-  @apply self-start m-3;
+  @apply self-center m-3;
 }
 
 .nav__menu {
