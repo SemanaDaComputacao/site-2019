@@ -7,10 +7,10 @@
       />
       <p class="section__title--text">Agenda</p>
     </div>
-    <div v-for="item in items" :key="item.day" class="schedule--item">
+    <div v-for="(item, index) in items" :key="index" class="schedule--item">
       <div class="day">{{ item.day }}</div>
       <div class="lectures">
-        <div v-for="lecture in item.lectures" :key="lecture.title">
+        <div v-for="(lecture, index) in item.lectures" :key="index">
           <scrollactive
             v-if="lecture.title !== 'Coffee-Break'"
             :offset="90"
@@ -41,7 +41,7 @@
                 >
                   <span
                     v-for="(person, index) in lecture.speakers"
-                    :key="person.speaker"
+                    :key="index"
                   >
                     <span v-if="index % 2 !== 0">e</span>
                     {{ person.speaker }}

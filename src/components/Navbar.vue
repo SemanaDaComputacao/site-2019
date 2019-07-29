@@ -33,8 +33,8 @@
       :modifyUrl="false"
     >
       <a
-        v-for="item in items"
-        :key="item.hook"
+        v-for="(item, index) in items"
+        :key="index"
         class="scrollactive-item nav__menu--item"
         :class="{ 'item--active': setBar && itemsActive }"
         :href="item.hook"
