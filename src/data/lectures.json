@@ -17,7 +17,7 @@
                 "time": "13:30 - 14:20"
             },
             {
-                "title": "Cobli",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -27,7 +27,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "14:30 - 15:20"
             },
             {
@@ -45,7 +45,7 @@
                 "time": "15:20 - 16:00"
             },
             {
-                "title": "Nvidia",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -55,11 +55,11 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Opus",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -69,7 +69,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "17:00 - 17:50"
             }
         ]
@@ -140,7 +140,7 @@
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Descubra",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -150,7 +150,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "17:00 - 17:50"
             }
         ]
@@ -159,7 +159,7 @@
         "day": "Quarta, 28 de Agosto",
         "lectures": [
             {
-                "title": "Protocolos Zero",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -169,7 +169,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "13:30 - 14:20"
             },
             {
@@ -201,7 +201,7 @@
                 "time": "15:20 - 16:00"
             },
             {
-                "title": "Descubra",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -211,11 +211,11 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Nubank",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -225,7 +225,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "17:00 - 17:50"
             }
         ]
@@ -248,7 +248,7 @@
                 "time": "13:30 - 14:20"
             },
             {
-                "title": "Santander",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -258,7 +258,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "14:30 - 15:20"
             },
             {
@@ -276,21 +276,7 @@
                 "time": "15:20 - 16:00"
             },
             {
-                "title": "ED Cris",
-                "speakerPlace": "IME-USP",
-                "speakers": [
-                    {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
-                    }
-                ],
-                "description": "lorem ipson",
-                "time": "16:00 - 16:50"
-            },
-            {
-                "title": "Concepta",
+                "title": "Em breve",
                 "speakerPlace": "",
                 "speakers": [
                     {
@@ -300,7 +286,21 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
+                "time": "16:00 - 16:50"
+            },
+            {
+                "title": "Em breve",
+                "speakerPlace": "",
+                "speakers": [
+                    {
+                        "speaker": "",
+                        "speakerTitle": "",
+                        "speakerPhoto": "statue.png",
+                        "bio": ""
+                    }
+                ],
+                "description": "",
                 "time": "17:00 - 17:50"
             }
         ]
@@ -319,7 +319,7 @@
                         "bio": ""
                     }
                 ],
-                "description": "lorem ipson",
+                "description": "",
                 "time": "10:00 - 16:00"
             }
         ]
