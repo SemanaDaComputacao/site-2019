@@ -38,7 +38,7 @@
                   {{ person.speaker }}
                 </p>
                 <p class="speaker__title">
-                  {{ person.speakerTitle }}
+                  {{ person.speakerTitle }}, {{ info.speakerPlace }}
                 </p>
               </div>
             </div>
