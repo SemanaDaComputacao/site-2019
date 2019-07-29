@@ -70,7 +70,7 @@ export default {}
 
 .compday--btn {
   background: linear-gradient(45deg, orange, yellow, green, cyan, blue, violet);
-  @apply self-center text-center font-bold text-black text-xl border-8 py-1 px-4 mt-6;
+  @apply self-center text-center font-bold text-black text-xl border-4 py-1 px-4 mt-6;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
   border-style: outset;
