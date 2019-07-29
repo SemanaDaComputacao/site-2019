@@ -38,7 +38,11 @@
                   {{ person.speaker }}
                 </p>
                 <p class="speaker__title">
-                  {{ person.speakerTitle }}, {{ info.speakerPlace }}
+                  {{ person.speakerTitle }}
+                  <span v-show="person.speakerTitle && info.speakerPlace !== ''"
+                    >,
+                  </span>
+                  {{ info.speakerPlace }}
                 </p>
               </div>
             </div>
