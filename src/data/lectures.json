@@ -17,17 +17,17 @@
                 "time": "13:30 - 14:20"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "250 metros em 10 anos: a lenta trajetória até minha startup",
+                "speakerPlace": "Cobli",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "Guto Motta",
+                        "speakerTitle": "Empreendedor",
+                        "speakerPhoto": "guto_motta.jpg",
+                        "bio": "Guto Motta é Co-Fundador da Concepta Asset Management, onde lidera as equipes de Ciência e Tecnologia na construção de ferramentas que fazem a gestão quantitativa de recursos financeiros. Antes da Concepta Guto fundou startups, levantou investimentos, testou hipóteses, pivotou projetos, recrutou equipes e construiu tecnologias que ajudaram a desenvolver os negócios de empresas brasileiras como iFood, Movile e Easynvest. Guto foi aluno do IME entre 1997 e 2000, quando se formou no BCC e começou sua jornada profissional trabalhando numa startup fundada por outros imeanos."
                     }
                 ],
-                "description": "",
+                "description": "Em março de 2019 a plataforma Distrito, em parceria com a KPMG, divulgou o relatório Corrida dos Unicórnios, um levantamento das startups brasileiras avaliadas em mais de US$ 1 bilhão. A conclusão: 10 dos 16 fundadores de unicórnios brasileiros são formados pela USP. Mas será que esses uspianos fundaram suas empresas logo depois da graduação? Como a experiência universitária contribuiu na jornada até o empreendedorismo? Que outros fatores são determinantes pro sucesso de uma startup?",
                 "time": "14:30 - 15:20"
             },
             {
