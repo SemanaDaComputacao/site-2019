@@ -276,17 +276,17 @@
                 "time": "15:20 - 16:00"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Estruturas de Dados e Algoritmos: Viagem no Tempo e no Espaço",
+                "speakerPlace": "IME-USP",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "Cristina G. Fernandes",
+                        "speakerTitle": "Professora",
+                        "speakerPhoto": "cristina_fernandes.jpg",
+                        "bio": "Cristina G. Fernandes é professora do Departamento de Ciência da Computação da Universidade de São Paulo (USP) desde 1988.  Ela é Bacharel em Ciência da Computação e Mestre em Matemática Aplicada pela USP. Fez o doutorado no Georgia Institute of Technology, EUA, no Programa Algorithms, Combinatorics, and Optimization. Desde o seu doutorado, ela trabalha em problemas de três áreas: algoritmos, teoria dos grafos, e otimização combinatória. Uma de suas citações favoritas é \"Talk is cheap. Show me the code.\", de Linus Torvalds."
                     }
                 ],
-                "description": "",
+                "description": "Estruturas de dados permitem operações de acesso e de modificação.  As operações de modificação usualmente alteram, em geral de forma irreversível, o estado da estrutura, impedindo assim o acesso a versões anteriores desta. Existem na literatura versões das estruturas de dados mais conhecidas que permitem não só o acesso a versões anteriores da estrutura, mas também modificações a estas versões anteriores. Estas são chamada de estruturas de dados temporais. Evidentemente o que se busca são estruturas de dados temporais eficientes, tanto em termos de consumo de tempo como de espaço. Esta palestra será uma introdução a estruturas de dados temporais, incluindo um exemplo de aplicação de uma destas estruturas em geometria computacional.",
                 "time": "16:00 - 16:50"
             },
             {
