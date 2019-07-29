@@ -45,7 +45,10 @@
           >.
         </p>
       </div>
-      <a class="compday--btn" href="https://forms.gle/VYfuEHQ9NpMTQ8hx7"
+      <a
+        class="compday--btn"
+        href="https://forms.gle/VYfuEHQ9NpMTQ8hx7"
+        target="_blank"
         >INSCREVA-SE</a
       >
     </div>
@@ -66,13 +69,17 @@ export default {}
 }
 
 .compday--btn {
-  @apply self-center text-center bg-gray-400 font-bold text-black text-lg border-4 py-1 px-4 mt-4;
-  text-shadow: none;
-  border-style: inset;
+  background: linear-gradient(45deg, orange, yellow, green, cyan, blue, violet);
+  @apply self-center text-center font-bold text-black text-xl border-8 py-1 px-4 mt-6;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  border-style: outset;
 }
 
-.compday--btn:active {
-  @apply bg-gray-500;
+.compday--btn:hover {
+  @apply text-white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .compday--links {
