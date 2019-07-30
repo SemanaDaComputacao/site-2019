@@ -1,11 +1,12 @@
 <template>
   <div id="home">
-    <navbar />
-    <the-header class="home__item min-h-screen" />
-    <about class="home__item background--crystal" />
-    <schedule class="home__item background--crystal" />
-    <comp-day class="home__item background--crystal" />
-    <location class="home__item background--crystal" />
+    <navbar @openAbout="aboutOpen" @closeAbout="aboutClose" />
+    <the-header v-show="!aboutState" class="home__item min-h-screen" />
+    <info v-show="!aboutState" class="home__item background--crystal" />
+    <schedule v-show="!aboutState" class="home__item background--crystal" />
+    <comp-day v-show="!aboutState" class="home__item background--crystal" />
+    <location v-show="!aboutState" class="home__item background--crystal" />
+    <about v-show="aboutState" class="home__item background--crystal" />
     <partners class="home__item" />
     <the-footer class="home__item" />
   </div>
@@ -14,10 +15,11 @@
 <script>
 import Navbar from '@/components/Navbar'
 import TheHeader from '@/components/Header'
-import About from '@/components/About'
+import Info from '@/components/Info'
 import Schedule from '@/components/Schedule'
 import CompDay from '@/components/CompDay'
 import Location from '@/components/Location'
+import About from '@/components/About'
 import Partners from '@/components/Partners'
 import TheFooter from '@/components/Footer'
 
@@ -26,12 +28,26 @@ export default {
   components: {
     Navbar,
     TheHeader,
-    About,
+    Info,
     Schedule,
     CompDay,
     Location,
+    About,
     Partners,
     TheFooter
+  },
+  data() {
+    return {
+      aboutState: false
+    }
+  },
+  methods: {
+    aboutOpen() {
+      this.aboutState = true
+    },
+    aboutClose() {
+      this.aboutState = false
+    }
   }
 }
 </script>
@@ -54,7 +70,7 @@ export default {
 }
 
 .section__title {
-  @apply mt-20 mb-12 border-8 self-center flex;
+  @apply mt-12 mb-8 border-8 self-center flex;
   border-style: inset;
 }
 
@@ -70,6 +86,14 @@ a:focus {
   @apply outline-none;
 }
 
+.text {
+  @apply text-lg mx-2 my-3 px-4;
+}
+
+.text--link {
+  @apply text-blue-600 underline;
+}
+
 @screen md {
   .section__title--text {
     @apply text-4xl;
@@ -77,6 +101,10 @@ a:focus {
 
   .section__title--img {
     @apply w-16 h-16;
+  }
+
+  .text {
+    @apply px-16;
   }
 }
 </style>

@@ -1,87 +1,95 @@
 <template>
   <section id="about">
-    <div class="about__content">
-      <div class="content--item">
-        <img class="item--title" src="../assets/images/icons/palestras.png" />
-        <p class="item--text">
-          Mais de 10 horas de conteúdo sobre diversas áreas da computação
-        </p>
-      </div>
-      <div class="content--item">
-        <img class="item--title" src="../assets/images/icons/stands.png" />
-        <p class="item--text">
-          Não perca a oportunidade de ter acesso ao recrutamento das melhores
-          empresas de tecnologia
-        </p>
-      </div>
-      <div class="content--item">
-        <img class="item--title" src="../assets/images/icons/coffee.png" />
-        <p class="item--text">
-          Oferecemos comes e bebes para todos os participantes do evento como
-          cortesia
-        </p>
-      </div>
+    <div class="section__title">
+      <img class="section__title--img" src="../assets/images/icons/about.png" />
+      <p class="section__title--text">Sobre</p>
     </div>
-    <p class="about--text">
-      Bem vindos a mais uma edição da <strong>Semana da Computação</strong>! O
-      evento, gratuito e aberto, chega em 2019 na sua décima primeira edição com
-      muito conteúdo e novidades exclusivas.
+    <p class="text">
+      A Semana da Computação é um evento anual que promove um ciclo de palestras
+      sobre os mais variados temas da computação. Realizado desde 2009 como
+      <strong>Encontro do BCC</strong>, nesta 11ª edição do evento, seguimos com
+      o nome adotado na edição passada. Assim, esperamos deixar claro que esse
+      evento não é só para as pessoas do BCC do IME, mas sim a todos os
+      interessados em computação. Não deixe de curtir a nossa
+      <a
+        class="text--link"
+        href="https://www.facebook.com/semanacomputacaoimeusp/"
+        >página no Facebook</a
+      >!
     </p>
-    <p class="about--text">
-      Serão <strong>16 palestras</strong> sobre os mais diversos temas da
-      computação. Essa é uma grande oportunidade de conhecer os caminhos da
-      carreira com <strong>especialistas de todo o Brasil</strong>.
+    <div class="section__title">
+      <img class="section__title--img" src="../assets/images/icons/team.png" />
+      <p class="section__title--text">Equipe</p>
+    </div>
+    <p class="text">
+      Esse evento é organizado por estudantes do IME. Nós contamos com apoio
+      institucional da USP e patrocínio de empresas. Conheça os alunos
+      responsáveis pela organização do evento.
     </p>
-    <p class="about--text">
-      Nesse ano, também contaremos com um dia especial dedicado a alunos do
-      Ensino Médio: o evento <strong>Um Dia Na Computação</strong> irá permitir
-      que jovens comparem cursos parecidos da computação e façam um tour pelo
-      IME-USP.
-    </p>
-    <p class="about--text">
-      Durante os dias, haverá
-      <strong>stands de recrutamento</strong> das melhores empresas de
-      tecnologia com atuação no Brasil. Se você está se formando, procurando
-      estágio ou apenas quer conhecer o mercado, não pode ficar de fora dessa.
-    </p>
+    <div class="about--container">
+      <span
+        v-for="(member, index) in team"
+        :key="index"
+        class="member--container"
+      >
+        <img
+          class="member__photo"
+          :src="photoLocation(member.photo)"
+          :alt="member.name"
+        />
+        <span class="member__name"> {{ member.name }} </span>
+      </span>
+    </div>
   </section>
 </template>
 
 <script>
-export default {}
+import teamJson from '../data/team.json'
+
+export default {
+  data() {
+    return {
+      team: {}
+    }
+  },
+  mounted() {
+    let obj = JSON.stringify(teamJson)
+    this.team = JSON.parse(obj)
+  },
+  methods: {
+    photoLocation(photo) {
+      return require(`../assets/images/team/${photo}`)
+    }
+  }
+}
 </script>
 
 <style>
-.about__content {
-  @apply flex flex-col justify-between;
-  @apply shadow-lg bg-gray-200 mx-4 mb-8 border-8;
-  border-style: inset;
-  text-shadow: none;
+#about {
+  margin-top: 7vh;
 }
 
-.content--item {
-  @apply flex flex-col m-4 text-black;
+.about--container {
+  @apply flex flex-wrap justify-center;
 }
 
-.item--title {
-  @apply self-center;
+.member--container {
+  @apply flex flex-col m-8;
+  flex-basis: 50%;
 }
 
-.item--text {
-  @apply mt-4 text-center self-center text-xl;
+.member__photo {
+  @apply w-32 h-32 rounded-full self-center;
 }
 
-.about--text {
-  @apply text-lg my-3 px-4;
+.member__name {
+  @apply self-center mt-1 text-rosa-semana text-xl;
 }
 
-@screen md {
-  .about__content {
-    @apply flex-row;
-  }
-
-  .about--text {
-    @apply m-4 px-16;
+@screen sm {
+  .member--container {
+    @apply self-center m-4;
+    flex-basis: 30%;
   }
 }
 </style>

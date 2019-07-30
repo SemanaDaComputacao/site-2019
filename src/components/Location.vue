@@ -10,12 +10,12 @@
 
     <div class="columns is-centered">
       <div class="column is-10">
-        <p class="about--text">
+        <p class="text">
           A Semana da Computação ocorrerá no IME-USP, localizado na Cidade
           Universitária. As palestras serão realizadas no auditório
           <strong>Jacy Monteiro</strong> no <strong>Bloco B</strong>.
         </p>
-        <address class="about--text">
+        <address class="text">
           Rua do Matão, 1010 &mdash; CEP 05508-090 &mdash; São Paulo &mdash; SP
         </address>
       </div>

@@ -3,43 +3,43 @@
     <div>
       <p class="footer--text">
         <strong>Edições anteriores</strong><br />
-        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2010/"
+        <a class="text--link" href="http://www.ime.usp.br/~encontrobcc/2010/"
           >II 2010</a
         >
         &middot;
-        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2011/"
+        <a class="text--link" href="http://www.ime.usp.br/~encontrobcc/2011/"
           >III 2011</a
         >
         &middot;
-        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2012/"
+        <a class="text--link" href="http://www.ime.usp.br/~encontrobcc/2012/"
           >IV 2012</a
         >
         &middot;
-        <a class="footer--link" href="http://www.ime.usp.br/~encontrobcc/2013/"
+        <a class="text--link" href="http://www.ime.usp.br/~encontrobcc/2013/"
           >V 2013</a
         >
         &middot;
-        <a class="footer--link" href="http://bcc.ime.usp.br/40anos/">VI 2014</a>
+        <a class="text--link" href="http://bcc.ime.usp.br/40anos/">VI 2014</a>
         &middot;
-        <a class="footer--link" href="http://bcc.ime.usp.br/encontro/2015"
+        <a class="text--link" href="http://bcc.ime.usp.br/encontro/2015"
           >VII 2015</a
         >
         &middot;
-        <a class="footer--link" href="http://bcc.ime.usp.br/encontro/2016/#/"
+        <a class="text--link" href="http://bcc.ime.usp.br/encontro/2016/#/"
           >VIII 2016</a
         >
         &middot;
-        <a class="footer--link" href="https://bcc.ime.usp.br/encontro/2017"
+        <a class="text--link" href="https://bcc.ime.usp.br/encontro/2017"
           >IX 2017</a
         >
         &middot;
-        <a class="footer--link" href="https://bcc.ime.usp.br/semana-old/2018"
+        <a class="text--link" href="https://bcc.ime.usp.br/semana-old/2018"
           >X 2018</a
         >
       </p>
       <p class="footer--text">
         <a
-          class="footer--link"
+          class="text--link"
           href="https://www.facebook.com/semanacomputacaoimeusp/"
           >Página no Facebook</a
         >
@@ -50,18 +50,18 @@
       <p class="footer--text">
         O
         <a
-          class="footer--link"
+          class="text--link"
           href="https://github.com/SemanaDaComputacao/site-2019"
           >código-fonte desse site</a
         >
         é distribuído sob a licença MIT. O conteúdo é distribuído sob a licença
         <a
-          class="footer--link"
+          class="text--link"
           href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
           >CC BY NC SA 4.0</a
         >. Ícones desenvolvidos pela
-        <a class="footer--link" href="http://www.freepik.com/">Freepik</a> de
-        <a class="footer--link" href="https://www.flaticon.com"
+        <a class="text--link" href="http://www.freepik.com/">Freepik</a> de
+        <a class="text--link" href="https://www.flaticon.com"
           >www.flaticon.com</a
         >.
       </p>
@@ -78,11 +78,9 @@ export default {}
   @apply bg-gray-200 text-black text-base pt-8 pb-4 px-4 text-center border-t-4;
   text-shadow: none;
 }
-
-.footer--link {
-  @apply text-blue-600 underline px-1;
+a.text--link {
+  @apply px-1;
 }
-
 .footer--text {
   @apply mb-6;
 }

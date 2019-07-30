@@ -17,7 +17,7 @@
       :duration="1200"
       :modifyUrl="false"
     >
-      <a href="#about" class="scrollactive-item">
+      <a href="#info" class="scrollactive-item">
         <img class="h-6 w-10" src="../assets/images/icons/down-chevron.png" />
       </a>
     </scrollactive>

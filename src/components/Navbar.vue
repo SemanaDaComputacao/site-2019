@@ -38,9 +38,16 @@
         class="scrollactive-item nav__menu--item"
         :class="{ 'item--active': setBar && itemsActive }"
         :href="item.hook"
-        @click="setBar ? toggleBar() : null"
+        @click="$emit('closeAbout') && setBar ? toggleBar() : null"
         >{{ item.text }}
       </a>
+      <a
+        href="#about"
+        class="scrollactive-item nav__menu--item"
+        :class="{ 'item--active': setBar && itemsActive }"
+        @click="$emit('openAbout') && setBar ? toggleBar() : null"
+        >SOBRE</a
+      >
     </scrollactive>
   </div>
 </template>
@@ -53,7 +60,6 @@ export default {
       setBar: false,
       windowWidth: window.innerWidth,
       items: [
-        { hook: '#about', text: 'SOBRE' },
         { hook: '#schedule', text: 'AGENDA' },
         { hook: '#compday', text: 'UM DIA NA COMPUTAÇÃO' },
         { hook: '#location', text: 'LOCAL' }

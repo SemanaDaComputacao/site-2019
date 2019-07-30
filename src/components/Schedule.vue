@@ -32,7 +32,7 @@
                 {{ splitTime(lecture.time, ' - ')[1] }}
               </div>
               <div class="lecture__details">
-                <span class="lecture__details--title">
+                <span class="lecture__details--title text--link">
                   {{ lecture.title }}
                 </span>
                 <br />
@@ -60,7 +60,7 @@
               {{ splitTime(lecture.time, ' - ')[1] }}
             </div>
             <div class="lecture__details">
-              <span class="lecture__details--title not-lecture">
+              <span class="lecture__details--title text--link not-lecture">
                 {{ lecture.title }}
               </span>
               <br />
@@ -140,7 +140,7 @@ export default {
 }
 
 .lecture__details--title {
-  @apply text-2xl text-blue-600 underline;
+  @apply text-2xl;
 }
 
 .not-lecture {
