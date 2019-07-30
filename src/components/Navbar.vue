@@ -16,10 +16,20 @@
         :duration="1200"
         :modifyUrl="false"
       >
-        <a href="#home" class="scrollactive-item" v-show="!setBar">
+        <a
+          href="#home"
+          class="scrollactive-item"
+          @click="$emit('closeAbout')"
+          v-show="!setBar"
+        >
           <img src="../assets/images/logo-branco.svg" alt="" srcset="" />
         </a>
-        <a href="#home" class="scrollactive-item" v-show="setBar">
+        <a
+          href="#home"
+          class="scrollactive-item"
+          @click="$emit('closeAbout')"
+          v-show="setBar"
+        >
           <img src="../assets/images/logo-preto.svg" alt="" srcset="" />
         </a>
       </scrollactive>
