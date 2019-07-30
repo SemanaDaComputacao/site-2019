@@ -60,7 +60,7 @@
               {{ splitTime(lecture.time, ' - ')[1] }}
             </div>
             <div class="lecture__details">
-              <span class="lecture__details--title text--link not-lecture">
+              <span class="lecture__details--title not-lecture">
                 {{ lecture.title }}
               </span>
               <br />
