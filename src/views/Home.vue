@@ -91,7 +91,7 @@ a:focus {
 }
 
 .text--link {
-  @apply text-blue-600 underline;
+  @apply text-blue-400 underline;
 }
 
 @screen md {

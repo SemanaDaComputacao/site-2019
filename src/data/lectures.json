@@ -45,17 +45,17 @@
                 "time": "15:20 - 16:00"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Reinventando a Computação Visual com Inteligência Artificial",
+                "speakerPlace": "NVIDIA",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "João Paulo Navarro",
+                        "speakerTitle": "Arquiteto de Soluções",
+                        "speakerPhoto": "joao_paulo_navarro.jpg",
+                        "bio": "Cientista da Computação e mestre em Modelagem Computacional (UFJF), tendo dedicado boa parte de sua carreira ao desenvolvimento de projetos nas áreas de computação gráfica, simulação física e machine learning. Possui ampla experiência no desenvolvimento de algoritmos de visualização e aprendizado de máquina voltados ao processamento geofísico. Hoje, na NVIDIA, é Arquiteto de Soluções com foco em computação de alto-desempenho, deep learning e machine learning."
                     }
                 ],
-                "description": "",
+                "description": "A computação visual está sendo totalmente reinventada com a combinação de processamento de alta-performance utilizando GPUs da NVIDIA e novas técnicas de Inteligência Artificial. Nesta conversa abordaremos o estado da arte em diferentes áreas do conhecimento como Processamento de Imagens, Computação Gráfica, Visão Computacional, Carros Autônomos e entender o que nos espera neste fascinante momento da tecnologia.",
                 "time": "16:00 - 16:50"
             },
             {
