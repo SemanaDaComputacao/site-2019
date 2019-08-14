@@ -5,7 +5,10 @@
     <info v-show="!aboutState" class="home__item background--crystal" />
     <schedule v-show="!aboutState" class="home__item background--crystal" />
     <comp-day v-show="!aboutState" class="home__item background--crystal" />
-    <location v-show="!aboutState" class="home__item background--crystal" />
+    <location
+      v-show="!aboutState"
+      class="home__item background--crystal overflow-x-hidden"
+    />
     <about v-show="aboutState" class="home__item background--crystal" />
     <partners class="home__item" />
     <the-footer class="home__item" />

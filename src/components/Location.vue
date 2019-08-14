@@ -93,7 +93,6 @@ export default {}
   h3 {
     color: #000;
     font-size: 1.5em;
-    margin-bottom: 0.6666em;
     font-weight: bold;
   }
 
@@ -129,7 +128,7 @@ export default {}
 
   .painel {
     width: 350px;
-    height: 570px;
+    height: 582px;
     left: 10px;
     position: absolute;
     top: 45px;
