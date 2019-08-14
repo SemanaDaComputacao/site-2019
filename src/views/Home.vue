@@ -87,7 +87,7 @@ a:focus {
 }
 
 .text {
-  @apply text-lg mx-2 my-3 px-4;
+  @apply text-lg mx-2 my-3 px-4 text-justify;
 }
 
 .text--link {

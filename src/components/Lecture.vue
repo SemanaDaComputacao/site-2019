@@ -133,7 +133,7 @@ export default {
 }
 
 .title--text {
-  @apply w-auto mr-4 text-xl flex-1 text-left;
+  @apply w-auto mr-4 text-2xl flex-1 text-left;
 }
 
 @screen sm {
@@ -146,7 +146,7 @@ export default {
   }
 
   .title--text {
-    @apply h-16 text-2xl;
+    @apply h-16;
   }
 }
 

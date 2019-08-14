@@ -59,7 +59,7 @@ export default {}
 
 <style>
 .compday--container {
-  @apply flex flex-col text-justify;
+  @apply flex flex-col;
 }
 
 .compday--btn {

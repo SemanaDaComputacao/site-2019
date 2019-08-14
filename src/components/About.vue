@@ -66,7 +66,6 @@ export default {
 
 <style>
 #about {
-  @apply text-justify;
   margin-top: 7vh;
 }
 
