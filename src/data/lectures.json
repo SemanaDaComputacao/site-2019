@@ -17,17 +17,23 @@
                 "time": "13:30 - 14:20"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Desafios de Data Science no cotidiano",
+                "speakerPlace": "Cobli",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "Isabela Blucher",
+                        "speakerTitle": "Data Scientist",
+                        "speakerPhoto": "isabela_cobli.jpg",
+                        "bio": "Isabela Blucher está no último ano da graduação em Ciência da Computação no Instituto de Matemática e Estatística da USP. Durante a graduação, participou de grupos de extensão nas áreas de desenvolvimento de jogos digitais e computação social. Passou um semestre na Universidade de Copenhagen, na Dinamarca, em um intercâmbio acadêmico, onde cursou disciplinas do programa de Mestrado em Computação. Hoje em dia, trabalha na Cobli, uma startup de logística e gestão de frotas, como Data Scientist."
+                    },
+                    {
+                        "speaker": "Gustavo Momente",
+                        "speakerTitle": "Tech Leader",
+                        "speakerPhoto": "gustavo_cobli.jpg",
+                        "bio": "Gustavo é graduado em engenharia mecatrônica pela Escola Politécnica da USP e pela ENSTA ParisTech e tem mestrado em ciência da computação pela UPMC. Atualmente é tech leader do time de processamento de dados na Cobli. Anteriormente trabalhou e desenvolveu pesquisa em processamento de linguagem natural."
                     }
                 ],
-                "description": "",
+                "description": "Quais são os desafios de Data Science que enfrentamos no dia a dia e como encontramos soluções? Gustavo Momente, especialista em engenharia de software, e Isabela Blucher, cientista de dados, contam mais sobre essa jornada por meio de dois projetos da Cobli: detecção de motoristas e detecção de acidentes.",
                 "time": "14:30 - 15:20"
             },
             {

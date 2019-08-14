@@ -89,7 +89,7 @@ export default {
 }
 
 .lecture__description {
-  @apply text-left mt-4;
+  @apply text-justify mt-4;
   flex: 4;
 }
 
@@ -129,7 +129,7 @@ export default {
 }
 
 .speaker__bio {
-  @apply mt-4;
+  @apply text-justify mt-4;
 }
 
 .title--text {
