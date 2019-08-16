@@ -165,17 +165,17 @@
         "day": "Quarta, 28 de Agosto",
         "lectures": [
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Protocolos Zero-Conhecimento",
+                "speakerPlace": "UNICAMP",
                 "speakers": [
                     {
-                        "speaker": "",
+                        "speaker": "Eduardo Morais",
                         "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
+                        "speakerPhoto": "eduardo_morais_protocolos.jpg",
                         "bio": ""
                     }
                 ],
-                "description": "",
+                "description": "Nesta apresentação serão descritas técnicas criptográficas que podem ser utilizadas para prover privacidade no contexto de aplicações Blockchain. Em particular, será dada ênfase em provas de conhecimento zero.",
                 "time": "13:30 - 14:20"
             },
             {
@@ -208,11 +208,11 @@
             },
             {
                 "title": "Privacidade, Proteção de Dados Pessoais e LGPD: tensões e sinergias entre legislação e tecnologia.",
-                "speakerPlace": "",
+                "speakerPlace": "Data Privacy Brasil",
                 "speakers": [
                     {
                         "speaker": "Mariana Rielli",
-                        "speakerTitle": "",
+                        "speakerTitle": "Líder de Projetos",
                         "speakerPhoto": "mariana_rielli_privacidade.jpg",
                         "bio": "Graduada em Direito pela Universidade de São Paulo. Durante a graduação, participou de diversas iniciativas de pesquisa e extensão, dentre as quais o Núcleo Direito Internet e Sociedade (NDIS). Cursa, atualmente, Especialização em Ciências Políticas na Fundação Escola de Sociologia e Política de São Paulo (FESP-SP). Trabalhou por 4 anos na organização não-governamental ARTIGO 19, focada em liberdade de expressão e acesso à informação, e hoje é pesquisadora e líder de projetos do Data Privacy Brasil, think tank em privacidade e proteção de dados pessoais."
                     }
