@@ -103,15 +103,15 @@
                 "speakers": [
                     {
                         "speaker": "Cintia Barbosa",
-                        "speakerTitle": "",
+                        "speakerTitle": "Agile Coach",
                         "speakerPhoto": "cintia_metodos_ageis.jpg",
-                        "bio": ""
+                        "bio": "Trabalha na Lendico como Agile Coach, profissional com mais de 10 anos de experiência com qualidade de software, sendo 6 anos focada em metodologias ágeis, auxiliando os times de desenvolvimento com a qualidade nas entregas, atuando com o desenvolvimento desde o início da concepção do produto."
                     },
                     {
                         "speaker": "Larissa Moraes",
-                        "speakerTitle": "",
+                        "speakerTitle": "Data Product Owner",
                         "speakerPhoto": "larissa_metodos_ageis.jpg",
-                        "bio": ""
+                        "bio": "Data Product Owner na Lendico, formada em computação e apaixonada por análise de dados. Trabalha na área de dados há 3 anos, com foco em gestão de projetos utilizando metodologia ágil. Atua na definição de produtos para entregar modelos de ciência de dados às áreas de negócios."
                     }
                 ],
                 "description": "Metodologia ágil está em alta no mercado, mas a implementação no dia-a-dia de trabalho das empresas é algo que traz muitos desafios. Nesta palestra iremos falar da experiência que tivemos na Lendico para implementar a metodologia ágil nos times de desenvolvimento web e também de ciência de dados, contando um pouco das adaptações que fizemos para cada time.  ",
