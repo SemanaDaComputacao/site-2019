@@ -39,7 +39,7 @@
         Saiba mais informações no
         <a
           class="text--link"
-          href="https://www.facebook.com/events/708963852786013/"
+          href="https://www.facebook.com/events/866968350356744/"
           >evento do Facebook</a
         >.
       </p>
