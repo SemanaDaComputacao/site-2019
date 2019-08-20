@@ -146,17 +146,17 @@
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Ética na Computação",
+                "speakerPlace": "IME-USP",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "Marcelo Finger",
+                        "speakerTitle": "Professor Titular",
+                        "speakerPhoto": "finger.jpg",
+                        "bio": "Possui graduação em Engenharia Eletrônica pela Universidade de São Paulo (1988), mestrado em Foundations of Advanced Information Technology - Imperial College of Science, Technology and Medicine (1990) e doutorado em PhD in Computing - Imperial College of Science and Technology, University of London (1994). Foi professor visitante em departamentos de Ciência da Computação na Université Paul Sabatier - Toulouse (2011) e na Cornell University (2012-2013). Atualmente é professor titular da Universidade de São Paulo. É editor das revistas: South American Journal of Logic, São Paulo Journal of Mathematical Sciences e editor convidado da Theoretical Computer Science e da Annals of Mathematics in Artificial Intelligence. Tem experiência na área de Ciência da Computação, com ênfase em Lógica, Raciocínio Lógico-Probabilístico, Linguística Computacional, e tem atuado como pesquisador principal nos seguintes temas: lógica, inteligência artificial, Humanidades Digitais e linguística computacional."
                     }
                 ],
-                "description": "",
+                "description": "A Ciência da Computação iniciou-se na década de 1930 com resultados que mostravam os limites do que pode ser computável. Curiosamente, estes resultados indicavam o caminho de como computadores podiam ser construído.  Após o final da Segunda Guerra, com o crescimento exponencial da construção de hardware, descobriu-se duas coisas.  Primeiro, que a complexidade da maioria dos problemas computacionais era muito elevada, incluindo nesta classe de alta complexidade os problemas relacionados à Racionalidade e Inteligência.  Segundo, por outro lado, descobriu-se que o pouco que conseguimos implementar eficientemente pode ser bem útil.  Seguiu-se uma princípio de difusão de dispositivos computacionais em todas as atividades humanas.  E, agora, estamos numa fase em que estamos percebendo que, apesar da complexidade inerente dos problemas, soluções aproximadas de boa qualidade podem ser alcançadas.  Isso garante o sucesso ilimitado da Inteligência Artificial? Não, pois os problemas éticos, se não forem bem abordados, podem levar a mais um Inverno da Inteligência Artificial.",
                 "time": "17:00 - 17:50"
             }
         ]
