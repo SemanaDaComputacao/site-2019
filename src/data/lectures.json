@@ -170,9 +170,9 @@
                 "speakers": [
                     {
                         "speaker": "Eduardo Morais",
-                        "speakerTitle": "",
+                        "speakerTitle": "Criptógrafo",
                         "speakerPhoto": "eduardo_morais_protocolos.jpg",
-                        "bio": ""
+                        "bio": "Eduardo Morais fez engenharia de computação, mestrado e doutorado no Instituto de Computação, Unicamp. Tem como área de atuação a criptografia, tema com o qual trabalhou na empresa nacional Kryptus, que produz dentre outras coisas hardwares para gerenciamento de chaves criptográficas. Recentemente trabalhou como criptógrafo no banco ING na Holanda, desenvolvendo software para prover privacidade em aplicações blockchain por meio de criptossistemas denominados provas de conhecimento zero (Zero Knowledge Proofs - ZKP). Atualmente é criptógrafo na IOHK, onde continua o trabalho com ZKPs."
                     }
                 ],
                 "description": "Nesta apresentação serão descritas técnicas criptográficas que podem ser utilizadas para prover privacidade no contexto de aplicações Blockchain. Em particular, será dada ênfase em provas de conhecimento zero.",
