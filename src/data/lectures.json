@@ -65,11 +65,11 @@
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Frameworks Web",
+                "speakerPlace": "Opus",
                 "speakers": [
                     {
-                        "speaker": "",
+                        "speaker": "Thiago Gomes",
                         "speakerTitle": "",
                         "speakerPhoto": "statue.png",
                         "bio": ""
@@ -221,8 +221,8 @@
                 "time": "16:00 - 16:50"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Microsserviços",
+                "speakerPlace": "Nubank",
                 "speakers": [
                     {
                         "speaker": "",
@@ -254,14 +254,14 @@
                 "time": "13:30 - 14:20"
             },
             {
-                "title": "Em breve",
-                "speakerPlace": "",
+                "title": "Chatbots e IA",
+                "speakerPlace": "Santander",
                 "speakers": [
                     {
-                        "speaker": "",
-                        "speakerTitle": "",
-                        "speakerPhoto": "statue.png",
-                        "bio": ""
+                        "speaker": "Lucio Sanchez Passos",
+                        "speakerTitle": "Arquiteto de Soluções",
+                        "speakerPhoto": "lucio_santander.jpg",
+                        "bio": "Bacharel em Engenharia Elétrica pela Universidade Federal de Uberlândia (2009). Foi pesquisador e aluno de Doutorado da Faculdade de Engenharia da Universidade do Porto (FEUP) em Portugal e no Brasil foi consultor na área de Data Science em empresas do setor elétrico. Começou a vida de nerd montando Lego e assistindo Dragon Ball Z. Na horas vagas é viciado em série do Netflix e hoje, aos 33 anos, é Arquiteto de Soluções em Inteligência Artificial no Banco Santander Brasil."
                     }
                 ],
                 "description": "",
