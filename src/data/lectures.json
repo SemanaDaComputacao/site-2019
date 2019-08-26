@@ -102,13 +102,13 @@
                 "speakerPlace": "Lendico",
                 "speakers": [
                     {
-                        "speaker": "Cintia Barbosa",
-                        "speakerTitle": "Agile Coach",
-                        "speakerPhoto": "cintia_metodos_ageis.jpg",
-                        "bio": "Trabalha na Lendico como Agile Coach, profissional com mais de 10 anos de experiência com qualidade de software, sendo 6 anos focada em metodologias ágeis, auxiliando os times de desenvolvimento com a qualidade nas entregas, atuando com o desenvolvimento desde o início da concepção do produto."
+                        "speaker": "Leandro Farina",
+                        "speakerTitle": "CIO",
+                        "speakerPhoto": "leandro_farina.jpg",
+                        "bio": "Leandro Farina - CIO da Lendico, formado no BCC (IME) e MBA em Gestão de TI (FIA), viu o mercado mudar algumas vezes e hoje acredita que a tecnologia é inseparável do negócio e que ambos precisam se reinventar constantemente. Atuou também como consultor de tecnologia para grandes empresas e no mercado financeiro."
                     },
                     {
-                        "speaker": "Larissa Moraes",
+                        "speaker": "Larissa Rodrigues",
                         "speakerTitle": "Data Product Owner",
                         "speakerPhoto": "larissa_metodos_ageis.jpg",
                         "bio": "Data Product Owner na Lendico, formada em computação e apaixonada por análise de dados. Trabalha na área de dados há 3 anos, com foco em gestão de projetos utilizando metodologia ágil. Atua na definição de produtos para entregar modelos de ciência de dados às áreas de negócios."
